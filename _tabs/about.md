@@ -10,7 +10,7 @@ order: 4
 
 ![alt text](static/image.png)
 
-<a>
+<a></a>
 ## About Me
 Playing around with code and AI
 
@@ -23,5 +23,5 @@ Playing around with code and AI
 ## CodeWords: 
 - [Local RAG application with Ollama](https://cfkubo.github.io/blogs/ragwithollama.html)
 - [Fine tuning Ollama models]()
-</a>
+
 

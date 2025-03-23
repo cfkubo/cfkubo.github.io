@@ -1,6 +1,6 @@
 ---
 title: Rag With Ollama
-date: 2024-03-23 01:01:01 +/-TTTT
+date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, rag]
 tags: [ai]     # TAG names should always be lowercase
 ---

@@ -21,7 +21,7 @@ Playing around with code and AI
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
 ## CodeWords: 
-- [Local RAG application with Ollama](https://cfkubo.github.io/blogs/ragwithollama.html)
+- [Local RAG application with Ollama](https://cfkubo.github.io/blogs/ragwithollama.md)
 - [Fine tuning Ollama models]()
 
 

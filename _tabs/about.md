@@ -20,8 +20,6 @@ Playing around with code and AI
 ## Music:
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
-## CodeWords: 
-- [Local RAG application with Ollama](blogs/ragwithollama.md)
-- [Fine tuning Ollama models]()
+
 
 

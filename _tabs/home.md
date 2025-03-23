@@ -3,10 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<!-- 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } -->
-
 
 ![alt text](static/image.png)
 
@@ -23,5 +19,3 @@ Playing around with code and AI
 ## CodeWords: 
 - [Local RAG application with Ollama](blogs/ragwithollama.md)
 - [Fine tuning Ollama models]()
-
-

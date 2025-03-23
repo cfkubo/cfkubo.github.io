@@ -1,13 +1,11 @@
 ---
-title: Fine Tune Ollama Models
+title: Fine-Tuning Your Own LLM From Raw Data to Ollama Magic
 date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, Model Fine Tune]
 tags: [Model Tunning]     # TAG names should always be lowercase
 ---
 
-
-Blog Post: Fine-Tuning Your Own LLM: From Raw Data to Ollama Magic
-Title: Fine-Tuning Your Own LLM: From Raw Data to Ollama Magic
+Fine-Tuning Your Own LLM: From Raw Data to Ollama Magic
 
 In the age of AI, Large Language Models (LLMs) are becoming increasingly accessible. But what if you need a model tailored to your specific needs? Today, we'll walk through the process of fine-tuning an LLM using your own dataset, and then convert it into a format usable by Ollama, a tool that makes running LLMs locally a breeze.
 

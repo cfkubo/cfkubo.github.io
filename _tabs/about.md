@@ -10,9 +10,8 @@ order: 4
 
 ![alt text](static/image.png)
 
-<a>test</a>
 ## About Me
-Playing around with code and AI
+Playing around with code and AI. 
 
 ## LinkedIn
 - [LinkedIn Profile](https://www.linkedin.com/in/arul-vannala-tanzu/) 

@@ -1,7 +1,7 @@
 ---
 title: Rag With Ollama
 date: 2024-03-23 01:01:01 +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [ollama, rag]
 tags: [test]     # TAG names should always be lowercase
 ---
 

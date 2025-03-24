@@ -11,7 +11,7 @@ This project demonstrates how to create a local Retrieval Augmented Generation (
 
 ## Overview
 
-In today's AI-driven world, accessing and processing information efficiently is crucial. This project leverages the power of local LLMs and vector databases to enable users to interact with their documents in a conversational manner. By combining Ollama's ability to run LLMs locally with LlamaIndex's robust data indexing, we create a powerful tool for knowledge retrieval and question answering.
+In today's AI-driven world, accessing and processing information efficiently is crucial. This project leverages the power of local LLMs and vector store indexing to enable users to interact with their documents in a conversational manner. By combining Ollama's ability to run LLMs locally with LlamaIndex's robust data indexing, we create a powerful tool for knowledge retrieval and question answering.
 
 ![ragappimage](/static/ragapp.png)
 

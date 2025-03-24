@@ -1,8 +1,8 @@
 ---
-title: Rag With Ollama
+title: RAG With Ollama
 date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, rag]
-tags: [ai]     # TAG names should always be lowercase
+tags: [ai, ollama]     # TAG names should always be lowercase
 ---
 
 # Demo Application: Local RAG Chatbot with Ollama and LlamaIndex
@@ -110,6 +110,6 @@ The script performs the following key tasks:
 * **Enhanced Error Handling:** Improve error handling and provide more informative error messages.
 * **User Authentication:** Add user authentication for secure access.
 * **Improved User Interface:** Enhance the user interface for a better user experience.
-* **Metadata filtering:** Add the ability to filter the documents using metadata.
+* **Containerize:** Update the application to run in Docker, k8s and Cloud Foundry.
 
 This project provides a foundation for building powerful local RAG chatbots. By leveraging Ollama and LlamaIndex, you can create customized solutions for knowledge retrieval and question answering tailored to your specific needs.

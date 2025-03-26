@@ -122,7 +122,7 @@ comments:
     repo: cfkubo/cfkubo.github.io # <gh-username>/<repo>
     repo_id: 953595518
     category: general
-    category_id: discussions_q=is%3Aopen+category%3AGeneral
+    category_id: #discussions_q=is%3Aopen+category%3AGeneral
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'

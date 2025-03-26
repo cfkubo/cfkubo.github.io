@@ -1,5 +1,5 @@
 ---
-title: RAG With Ollama
+title: RAG with Ollama
 date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, rag]
 tags: [ai, ollama]     # TAG names should always be lowercase

@@ -207,3 +207,19 @@ The path to Kubernetes mastery is a continuous adventure. May this guide serve a
 Helpful Links:
 
 * https://artifacthub.io/ (Find and install Kubernetes packages with Helm)
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

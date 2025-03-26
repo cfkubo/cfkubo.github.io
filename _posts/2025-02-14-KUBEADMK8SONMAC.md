@@ -57,7 +57,8 @@ https://mac.getutm.app/gallery/
 #### Direct Download (For All Options):
 Ubuntu Desktop (GUI for easier initial exploration): https://ubuntu.com/download/desktop
 Ubuntu Server (Lightweight and command-line focused): https://cdimage.ubuntu.com/ubuntu/releases/
-The Single Node Symphony: Your First Kubernetes Melody
+
+### Your First Kubernetes Melody
 Let's begin with a single-node cluster – a perfect way to grasp the fundamentals.
 
 Step 1: Preparing the Multipass Stage

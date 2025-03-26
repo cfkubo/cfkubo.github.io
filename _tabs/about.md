@@ -7,8 +7,6 @@ order: 4
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-
-![alt text](static/kala.jpg)
 ![alt text](static/life.jpg)
 
 ## About Me
@@ -20,6 +18,6 @@ Playing around with code and AI.
 ## Music:
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
-
+![alt text](static/kala.jpg)
 
 

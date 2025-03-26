@@ -115,4 +115,21 @@ The script performs the following key tasks:
 This project provides a foundation for building powerful local RAG chatbots. By leveraging Ollama and LlamaIndex, you can create customized solutions for knowledge retrieval and question answering tailored to your specific needs.
 
 
-  [Github Project](https://github.com/cfkubo/ollama-rag-chat)
+[Github Project](https://github.com/cfkubo/ollama-rag-chat)
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -5,7 +5,7 @@ categories: [cpu cores, linux, windows, mac]
 tags: [physical cpu cores, virtual cpu cores]     # TAG names should always be lowercase
 ---
 
-This document provides background on how to understands how Physical and Virtual cores on Linux, Windows and MAC
+This document provides background on how to understands Physical and Virtual CPU cores on Linux, Windows and MAC
 
 ## Linux VM
 

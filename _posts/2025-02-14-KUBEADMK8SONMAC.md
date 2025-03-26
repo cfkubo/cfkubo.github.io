@@ -204,5 +204,6 @@ Setting up a local Kubernetes cluster on your Mac is more than just a technical 
 
 The path to Kubernetes mastery is a continuous adventure. May this guide serve as a cherished first step on your exciting voyage!
 
-Helpful Links
-https://artifacthub.io/ (Find and install Kubernetes packages with Helm)
+Helpful Links:
+
+* https://artifacthub.io/ (Find and install Kubernetes packages with Helm)

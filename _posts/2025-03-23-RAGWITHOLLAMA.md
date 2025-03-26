@@ -113,3 +113,6 @@ The script performs the following key tasks:
 * **Containerize:** Update the application to run in Docker, k8s and Cloud Foundry.
 
 This project provides a foundation for building powerful local RAG chatbots. By leveraging Ollama and LlamaIndex, you can create customized solutions for knowledge retrieval and question answering tailored to your specific needs.
+
+
+  [Github Project](https://github.com/cfkubo/ollama-rag-chat)

@@ -1,8 +1,8 @@
 ---
 title: Understanding Physical vs Virutal Cores
 date: 2025-02-02 01:01:01 +/-TTTT
-categories: [cores, linux, windows, mac]
-tags: [physical cores, virtuial cores]     # TAG names should always be lowercase
+categories: [cpu cores, linux, windows, mac]
+tags: [physical cpu cores, virtual cpu cores]     # TAG names should always be lowercase
 ---
 
 This document provides background on how to understands how Physical and Virtual cores on Linux, Windows and MAC

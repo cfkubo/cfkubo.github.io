@@ -122,12 +122,12 @@ comments:
     repo: cfkubo/cfkubo.github.io # <gh-username>/<repo>
     repo_id: 953595518
     category: general
-    category_id:
+    category_id: discussions_q=is%3Aopen+category%3AGeneral
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
-    reactions_enabled: 10 # optional, default to the value of `1`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:

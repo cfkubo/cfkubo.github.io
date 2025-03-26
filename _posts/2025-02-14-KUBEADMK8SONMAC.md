@@ -194,9 +194,9 @@ Your journey doesn't end here! With your local Kubernetes cluster up and running
 
 **Fortifying Your Kingdom:** Installing Security Tools like Falco: Security is paramount. With your local cluster, you can easily experiment with security tools like Falco. Falco is a powerful runtime security tool that can detect anomalous activity in your containers and Kubernetes environment. You can deploy Falco using Helm or by applying YAML manifests. This allows you to learn how to monitor and secure your Kubernetes workloads effectively.
 
-**Embracing the Ecosystem: **Exploring Kubernetes Add-ons: Dive into the vast ecosystem of Kubernetes add-ons. Install a network plugin (like Calico or Flannel if not already configured by the k8s.sh script), set up a DNS service (like CoreDNS), deploy a metrics server, or explore ingress controllers to manage external access to your applications.
+**Embracing the Ecosystem:** Exploring Kubernetes Add-ons: Dive into the vast ecosystem of Kubernetes add-ons. Install a network plugin (like Calico or Flannel if not already configured by the k8s.sh script), set up a DNS service (like CoreDNS), deploy a metrics server, or explore ingress controllers to manage external access to your applications.
 
-**Local Development Nirvana: **Integrating with Development Tools: Connect your local development tools directly to your Kubernetes cluster. Use tools like Skaffold or Tilt to automate the build, push, and deploy cycle for your containerized applications, making local development on Kubernetes a breeze.
+**Local Development Nirvana:** Integrating with Development Tools: Connect your local development tools directly to your Kubernetes cluster. Use tools like Skaffold or Tilt to automate the build, push, and deploy cycle for your containerized applications, making local development on Kubernetes a breeze.
 
 **Disaster Recovery Drills:** Practicing Cluster Operations: Your local cluster is an ideal environment for practicing essential Kubernetes operations like backups and restores (especially for etcd), upgrades, and troubleshooting common issues without risking production environments.
 

@@ -8,7 +8,8 @@ order: 4
 {: .prompt-tip } -->
 
 
-![alt text](static/logo.png)
+![alt text](static/kala.jpg)
+![alt text](static/life.jpg)
 
 ## About Me
 Playing around with code and AI. 

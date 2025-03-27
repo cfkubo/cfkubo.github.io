@@ -155,7 +155,7 @@ Virtual Cores (Total): 2 (logical processors per CPU) * 2 (CPUs) = 4 virtual cor
 
 For example, if each CPU had 2 cores and hyper-threading was on, you'd see NumberOfCores=2 and NumberOfLogicalProcessors=4 for each CPU.
 
-**Multiple CPUs/Sockets: ** This output clearly shows that you have two physical CPUs (or sockets) in this system. This is why you see two sets of results.
+**Multiple CPUs/Sockets:** This output clearly shows that you have two physical CPUs (or sockets) in this system. This is why you see two sets of results.
 VMware (Likely): If this is a virtual machine (VM), the number of physical cores you see (4 in this case) represents the number of physical cores allocated to your VM. The host machine that the VM runs on likely has more physical cores. The VM only sees what it's given.
 Other Ways to Check (GUI):
 

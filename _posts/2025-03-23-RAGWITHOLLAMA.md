@@ -4,6 +4,19 @@ date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, rag]
 tags: [ai, ollama]     # TAG names should always be lowercase
 ---
+<!-- 
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script> -->
+
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+
 
 # Demo Application: Local RAG Chatbot with Ollama and LlamaIndex
 

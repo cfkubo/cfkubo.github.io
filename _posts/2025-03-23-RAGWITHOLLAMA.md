@@ -70,7 +70,7 @@ pip3 install -r requirements.txt
 ```
 ollama run llama2:latest
 ```
-5. Loging to Hugginface acount
+5. Login to Hugginface acount
 ```
 huggingface-cli login
 ```

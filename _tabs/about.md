@@ -12,6 +12,8 @@ order: 6
   <img src="static/life.jpg" alt="life" width="550" height="550">
   <img src="static/kala.jpg" alt="kala" width="300" height="200" style="margin-left: 10px; margin-right: 10px;">
   <img src="static/vidur.png" alt="vidur" width="300" height="200">
+  <img src="static/vidurgrill.png" alt="vidur" width="300" height="200">
+  <img src="static/sandeshv.png" alt="sandesh" width="300" height="200">
 </div>
 
 ## About Me

@@ -4,6 +4,15 @@ date: 2025-02-15 01:01:01 +/-TTTT
 categories: [kubernetes, linux, mac]
 tags: [k8s, kubeadm]     # TAG names should always be lowercase
 ---
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+
 
 # Unleashing the Power of Kubernetes on Your Mac: A Journey of Discovery
 
@@ -224,3 +233,4 @@ Helpful Links:
         crossorigin="anonymous"
         async>
 </script>
+

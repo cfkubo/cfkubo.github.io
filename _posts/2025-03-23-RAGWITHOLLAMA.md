@@ -4,9 +4,6 @@ date: 2025-03-23 01:01:01 +/-TTTT
 categories: [ollama, rag]
 tags: [ai, ollama]     # TAG names should always be lowercase
 ---
-<!-- 
-<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script> -->
 
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

@@ -27,7 +27,7 @@ This document provides background on how to understands Physical and Virtual CPU
 
 The lscpu command provides detailed information about the CPU architecture, including the number of cores.
 
-Bash
+
 ```
 lscpu
 ```

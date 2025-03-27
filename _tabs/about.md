@@ -22,12 +22,14 @@ order: 6
 </div> -->
 
 ## About Me
-Playing around with code and AI. 
+Experiments with Words, Code and AI. 
 
-## LinkedIn
+## LinkedIn 
+Checkout my LinkedIn profile
 - [LinkedIn Profile](https://www.linkedin.com/in/arul-vannala-tanzu/) 
 
 ## Music:
+AI generated music: Suno you are Awesome !!!
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
 <!-- ![alt text](static/kala.jpg) -->

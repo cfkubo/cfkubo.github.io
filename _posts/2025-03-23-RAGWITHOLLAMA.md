@@ -60,30 +60,30 @@ In today's AI-driven world, accessing and processing information efficiently is 
 ## Running it locally
 
 1. Clone the repository
-```
+```bash
 git clone https://github.com/cfkubo/ollama-rag-chat
 cd ollama-rag-chat
 ```
 
 2. Create a virtual environment and activate it
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 3. Install dependencies using pip
-```
+```bash
 pip3 install -r requirements.txt
 ```
 
 4. Run ollama or use other ollama models
-```
+```bash
 ollama run llama2:latest
-```
+```bash
 5. Login to Hugginface acount
 ```
 huggingface-cli login
-```
+```bash
 6. Run the application
 ```
 python3 rag-ollama-all-local.py

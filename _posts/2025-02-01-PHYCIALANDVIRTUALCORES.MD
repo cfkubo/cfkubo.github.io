@@ -5,6 +5,16 @@ categories: [cpu cores, linux, windows, mac]
 tags: [physical cpu cores, virtual cpu cores]     # TAG names should always be lowercase
 ---
 
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+
+
 This document provides background on how to understands Physical and Virtual CPU cores on Linux, Windows and MAC
 
 **Virtualization:** If you're on a virtual machine (VM), the number of physical cores you see might be the number of cores allocated to your VM, not the total number of physical cores on the host machine.

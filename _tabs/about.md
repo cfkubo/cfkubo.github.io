@@ -7,7 +7,13 @@ order: 6
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-![alt text](static/life.jpg)
+<!-- ![alt text](static/life.jpg =300) -->
+<!-- <img src="static/sandesh.jpg" alt="sandesh" width="300" height="200"> -->
+<div style="display: flex; flex-direction: row; align-items: center;">
+  <img src="static/life.jpg" alt="life" width="300" height="200">
+  <img src="static/kala.jpg" alt="kala" width="300" height="200" style="margin-left: 10px; margin-right: 10px;">
+  <img src="static/vidur.png" alt="vidur" width="300" height="200">
+</div>
 
 ## About Me
 Playing around with code and AI. 
@@ -18,6 +24,6 @@ Playing around with code and AI.
 ## Music:
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
-![alt text](static/kala.jpg)
+<!-- ![alt text](static/kala.jpg) -->
 
 

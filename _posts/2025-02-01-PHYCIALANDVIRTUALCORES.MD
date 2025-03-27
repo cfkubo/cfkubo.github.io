@@ -7,6 +7,10 @@ tags: [physical cpu cores, virtual cpu cores]     # TAG names should always be l
 
 This document provides background on how to understands Physical and Virtual CPU cores on Linux, Windows and MAC
 
+**Virtualization:** If you're on a virtual machine (VM), the number of physical cores you see might be the number of cores allocated to your VM, not the total number of physical cores on the host machine.
+
+**Hyper-threading:** Hyper-threading allows a single physical core to handle multiple threads concurrently, making it appear as multiple logical cores to the operating system.
+ 
 ## Linux VM
 
 ### Via  lscpu:
@@ -105,13 +109,6 @@ Sample Output:
 ```
 8
 ```
-
-
-**Virtualization:** If you're on a virtual machine (VM), the number of physical cores you see might be the number of cores allocated to your VM, not the total number of physical cores on the host machine.
-Hyper-threading: Hyper-threading allows a single physical core to handle multiple threads concurrently, making it appear as multiple logical cores to the operating system.  
-VMware: In the lscpu output, "Hypervisor vendor: VMware" indicates that this is a virtual machine running on VMware.
-By using these commands and interpreting their output, you can determine the number of physical and virtual CPU cores available to your Linux VM.
-
 
 ## Windows VM
 

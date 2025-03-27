@@ -5,6 +5,16 @@ categories: [ollama, rag]
 tags: [ai, ollama]     # TAG names should always be lowercase
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2P5CM1K51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q2P5CM1K51');
+</script>
+
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 

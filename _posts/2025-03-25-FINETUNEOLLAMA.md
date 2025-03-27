@@ -1,6 +1,6 @@
 ---
 title: Fine-Tuning Your Own LLM From Raw Data to Ollama Magic
-date: 2025-03-23 01:01:01 +/-TTTT
+date: 2025-03-27 01:01:01 +/-TTTT
 categories: [ollama, model fine tune, python, pytroch ]
 tags: [model fine tunning, ollama, ai, huggingface, python, pytroch ]     # TAG names should always be lowercase
 ---

@@ -61,7 +61,6 @@ Virtual Cores: CPU(s) = 8 (or Thread(s) per core x Core(s) per socket x Socket(s
 
 The /proc/cpuinfo file contains detailed information about each logical processor.
 
-Bash
 ```
 cat /proc/cpuinfo
 ```
@@ -99,7 +98,6 @@ The "siblings" value indicates the number of threads per core.
 
 The nproc command simply prints the number of available processors (logical cores).
 
-Bash
 ```
 nproc
 ```

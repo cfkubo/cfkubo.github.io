@@ -1,8 +1,8 @@
 ---
 title: Running GGUF model with Ollama - PART II
-date: 2025-03-27 01:01:01 +/-TTTT
-categories: [ollama, model fine tune, python, pytroch ]
-tags: [model fine tunning, ollama, ai, huggingface, python, pytroch ]     # TAG names should always be lowercase
+date: 2025-03-28 01:01:01 +/-TTTT
+categories: [ollama, model fine tune, python, local ai ]
+tags: [ollama, ai, huggingface ]     # TAG names should always be lowercase
 ---
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

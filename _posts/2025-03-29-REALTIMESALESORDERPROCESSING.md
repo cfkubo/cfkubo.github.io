@@ -183,13 +183,14 @@ CREATE TABLE IF NOT EXISTS public.salesorders_fraud
 );
 ```
 
-### Example queries (for testing and verification)
+<!-- ### Example queries 
+For testing and verification
 ```
 SELECT order_id, product, price, quantity, ship_to, payment_method, order_date::date AS order_date, address, store_name, store_address, sales_rep_name FROM salesorders_read WHERE payment_method != 'cash' and (product ilike '%ring%' or product = 'diamonds');
 SELECT count(*) FROM public.salesorders;
 SELECT count(*) FROM public.salesorders_read;
 select count(*) from public.salesorders_fraud;
-```
+``` -->
 
 ### Spring Boot Application
 You'll need a Spring Boot application that generates sales order data in a specific format (matching the regular expressions in the PostgreSQL stored procedure) and sends it as JSON to a RabbitMQ queue.

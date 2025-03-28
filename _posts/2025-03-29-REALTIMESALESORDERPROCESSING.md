@@ -230,12 +230,12 @@ insert-to-pg=rabbit --queues=salesOrderQuorumQueue --port=5672 --publisher-confi
 #### PostgreSQL CDC to GemFire
 This pipeline captures changes from the salesorders_read table in PostgreSQL and writes them to GemFire.
 
-* **cdc-debezium (Source): ** A Debezium source connector configured to:
+* **cdc-debezium (Source):**  A Debezium source connector configured to:
 * Connect to the PostgreSQL database.
 * Monitor the public.salesorders_read table for changes.
 * Use the specified database credentials and connection details.
 * Enable flattening of the Debezium message payload.
-* geode (Sink): A GemFire sink connector configured to:
+* **geode (Sink):** A GemFire sink connector configured to:
 * Connect to the GemFire locator at localhost:10334.
 * Write data to the "orders" region.
 * Use the order_id field from the Debezium payload as the key in the GemFire region.
@@ -265,12 +265,11 @@ create region --name=orders --type=PARTITION
 
 ### Running the Workflow
 
-Start the Spring Boot Sales Order Generator application. This will begin publishing sales order messages to the RabbitMQ queue.
-Deploy the "RabbitMQ to PostgreSQL" Spring Cloud Data Flow stream. This will start consuming messages and inserting data into the salesorders table.
-Observe PostgreSQL: As data is inserted into salesorders, the sales_order_update_trigger will fire, calling the process_sales_order stored procedure. This will parse the payload and populate the salesorders_read table.
-Deploy the "PostgreSQL CDC to GemFire" Spring Cloud Data Flow stream. This will connect to PostgreSQL via Debezium and start capturing changes in the salesorders_read table.
-
-Observe GemFire: As changes occur in salesorders_read, Debezium will emit change events, and the GemFire sink will write these events to the "orders" region in GemFire.
+* Start the Spring Boot Sales Order Generator application. This will begin publishing sales order messages to the RabbitMQ queue.
+* Deploy the "RabbitMQ to PostgreSQL" Spring Cloud Data Flow stream. This will start consuming messages and inserting data into the salesorders table.
+* Observe PostgreSQL: As data is inserted into salesorders, the sales_order_update_trigger will fire, calling the process_sales_order stored procedure. This will parse the payload and populate the salesorders_read table.
+* Deploy the "PostgreSQL CDC to GemFire" Spring Cloud Data Flow stream. This will connect to PostgreSQL via Debezium and start capturing changes in the salesorders_read table.
+* **Observe GemFire:** As changes occur in salesorders_read, Debezium will emit change events, and the GemFire sink will write these events to the "orders" region in GemFire.
 
 
 ### Verifying the Data in GemFire

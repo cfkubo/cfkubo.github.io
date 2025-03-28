@@ -195,7 +195,7 @@ select count(*) from public.salesorders_fraud;
 ### Spring Boot Application
 You'll need a Spring Boot application that generates sales order data in a specific format (matching the regular expressions in the PostgreSQL stored procedure) and sends it as JSON to a RabbitMQ queue.
 
-Sample Application you leverage: [Sales Order Generator](https://github.com/cfkubo/spring-boot-random-data-generator)
+Demo Application you can leverage: [Sales Order Generator](https://github.com/cfkubo/spring-boot-random-data-generator)
 
 Example Sales Order Payload (as a String that will be embedded in JSON):
 

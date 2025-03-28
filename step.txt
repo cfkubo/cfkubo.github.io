@@ -1,0 +1,30 @@
+bundle exec jekyll s
+
+JEKYLL_ENV=production bundle exec jekyll b
+
+
+https://github.com/apps/giscus
+
+https://stackoverflow.com/questions/13902593/how-does-one-find-out-ones-own-repo-id
+
+Comments:
+https://giscus.app/
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/

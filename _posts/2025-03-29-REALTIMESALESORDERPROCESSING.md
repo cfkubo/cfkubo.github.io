@@ -2,7 +2,7 @@
 title: Real-Time Sales Order Processing
 date: 2025-01-11 01:01:01 +/-TTTT
 categories: [springboot, postgres, rabbitmq, gemfire ]
-tags: [springboot, postgres, rabbitmq, gemfire, real time processing, change data capture, cdc, streams, quorum queues  ]     # TAG names should always be lowercase
+tags: [springboot, postgres, rabbitmq, gemfire, real time processing, change data capture, cdc, streams, quorum queues]     # TAG names should always be lowercase
 ---
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

@@ -293,3 +293,20 @@ You should see the sales order data (as JSON) that originated from your Spring B
 
 ### Conclusion
 This workflow demonstrates a powerful and scalable approach to real-time data processing. By combining Spring Boot for application logic, RabbitMQ for asynchronous communication, Spring Cloud Data Flow for building data pipelines, PostgreSQL for persistent storage and data transformation, Debezium for change data capture, and GemFire for a high-performance in-memory data grid, you can build responsive and data-driven applications. This architecture allows for decoupling of services, efficient data transformation, and real-time data availability for downstream consumers.
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

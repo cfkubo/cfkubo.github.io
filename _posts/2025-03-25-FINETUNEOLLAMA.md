@@ -26,7 +26,7 @@ Let's dive into the steps we took to fine-tune a model using a script that handl
 
 #### Data Preparation: The Foundation
 
-Our journey begins with a JSON file containing our dataset. We load this data, create a Hugging Face Dataset, and split it into training and testing sets. This ensures we can evaluate our model's performance after fine-tuning.
+Our journey begins with a JSON file containing our dataset. For this experiment we choose local dataset in json format. We load this data and split it into training and testing sets. This ensures we can evaluate our model's performance after fine-tuning.
 
 
 ```

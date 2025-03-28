@@ -203,7 +203,7 @@ Example Sales Order Payload (as a String that will be embedded in JSON):
 product='Laptop', price=1200.50, quantity=1, shipTo='Home', paymentMethod='Credit Card', orderDate=2025-03-27, address='123 Main St', storeName='Tech Store', storeAddress='456 Oak Ave', salesRepName='John Doe'
 ```
 
-Your Spring Boot application would:
+The Spring Boot application flow:
 
 * Establish a connection to RabbitMQ.
 * Define a queue (e.g., salesOrderQuorumQueue).

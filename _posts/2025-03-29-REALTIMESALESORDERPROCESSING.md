@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed and running:
 * **Docker:** For containerizing the infrastructure components.
 * **Java Development Kit (JDK):** For running Spring Boot and Spring Cloud Data Flow.
 * **Maven:** For building Spring Boot applications.
-* **Spring Cloud Data Flow Server:** Set up and running. You can follow the official Spring Cloud Data Flow documentation for installation.
+* **Spring Cloud Data Flow Server:** Set up and running. You can follow the official [Spring Cloud Data Flow documentation](https://dataflow.spring.io/docs/installation/local/manual/) for installation.
 
 ### Setting Up the Infrastructure
 

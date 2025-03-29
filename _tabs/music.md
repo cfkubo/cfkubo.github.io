@@ -25,18 +25,18 @@ order: 6
 
   fetch("/assets/mjk/songs.json")
     .then((response) => {
-      // debugArea.innerHTML += "<p>Fetch response status: " + response.status + "</p>"; // Check fetch status
+      debugArea.innerHTML += "<p>Fetch response status: " + response.status + "</p>"; // Check fetch status
       return response.json();
     })
     .then((songs) => {
-      // debugArea.innerHTML += "<p>Songs data: " + JSON.stringify(songs) + "</p>"; // Check songs data
+      debugArea.innerHTML += "<p>Songs data: " + JSON.stringify(songs) + "</p>"; // Check songs data
 
       const musicList = document.getElementById("music-list");
       const audioPlayer = document.getElementById("audio-player");
       const currentSongTitle = document.getElementById("current-song-title");
 
       songs.forEach((song) => {
-        // debugArea.innerHTML += "<p>Processing song: " + JSON.stringify(song) + "</p>"; // Check each song
+        debugArea.innerHTML += "<p>Processing song: " + JSON.stringify(song) + "</p>"; // Check each song
 
         const songItem = document.createElement("div");
         songItem.classList.add("song-item");
@@ -96,12 +96,12 @@ order: 6
     width: 100%; /* Make the audio element take full width of its container */
   }
 
-  /* #debug-area {
+  #debug-area {
     border: 1px solid red;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 12px;
-  } */
+  }
 
   @media (max-width: 600px) {
     .song-item {

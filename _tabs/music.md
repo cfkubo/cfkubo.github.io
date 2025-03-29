@@ -42,6 +42,14 @@ order: 6
   <iframe width="560" height="315" src="https://www.youtube.com/embed/EeAhwlRuLik" title="No Hero Not Zero !!!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
 
 
 

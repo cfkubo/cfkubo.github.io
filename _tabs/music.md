@@ -1,0 +1,28 @@
+---
+layout: default
+title: Music
+# permalink: /music/
+icon: fas fa-music  
+order: 6
+---
+
+<h1>Suno Music</h1>
+
+### AI Generated Music.   
+
+- [Youtube](https://youtube.com/@projectsuno?si=RP_J0neW-kF5owKT) 
+- [Music @SunoAI](https://suno.com/@projectsuno)
+  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4Fc8gutfE" title="Dil Ka Safar !!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ad-tGomu2Fk" title="Suniyo Suno Suno !!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/Eqg79-FF934" title="Sapno Ke Nagiri !!! #suno #sunomusic #melodic #acoustic #lullaby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/EeAhwlRuLik" title="No Hero Not Zero !!!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+

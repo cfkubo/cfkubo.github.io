@@ -23,7 +23,7 @@ order: 6
 <script>
   const debugArea = document.getElementById("debug-area");
 
-  fetch("/assets/mjk/songs.json")
+  fetch("/static/mjk/songs.json")
     .then((response) => {
       debugArea.innerHTML += "<p>Fetch response status: " + response.status + "</p>"; // Check fetch status
       return response.json();

@@ -17,7 +17,7 @@ order: 7
 </div>
 
 ## About Me
-Experiments with Words, Code and AI. 
+Experiments with Words, Code, Music and AI 
 
 ## LinkedIn 
 Checkout my LinkedIn profile

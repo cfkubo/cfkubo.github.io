@@ -6,5 +6,5 @@ order: 7
 ---
 
 
-  {% include /snakegame.html %}
+  {% include snakegame.html %}
 

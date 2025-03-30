@@ -13,7 +13,7 @@ let snake = {
   maxCells: 4,
 };
 let apples = [];
-const numberOfApples = 5;
+const numberOfApples = 11;
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;

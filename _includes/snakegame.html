@@ -64,11 +64,12 @@
       }
 
       initializeApples();
-      updateScoreDisplay(); // Initialize the score display
+      // Initialize the score display
 
       function updateScoreDisplay() {
         scoreDisplay.textContent = `Score: ${score}`;
       }
+      updateScoreDisplay(); // Initialize the score display
 
       function loop() {
         requestAnimationFrame(loop);

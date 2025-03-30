@@ -56,6 +56,15 @@ ProjectSuno is an experiment with Suno AI to create personalized music. If you'r
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6p2STl9HIWI?list=PL1P91v5-Pois8BO9ZOEPFS9ATjLrtHLqw" title="Pehla se zyada peene laga hai !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+### Playlists:
+
+<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bOc5Lx3hRC8?list=PL1P91v5-Poiu6yhoVVPhUvePCNtdau-TH" title="Shot Pe Shot !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/scv69JbtgKY?list=PL1P91v5-Poiut92RuIalzKNNmeqHGlEw0" title="Scroll and swipe !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
 
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

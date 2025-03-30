@@ -6,12 +6,14 @@ icon: fas fa-music
 order: 6
 ---
 
-<h1>Suno Music</h1>
+<h3>Project Suno: Personalized Music Powered by AI</h3>
 
-### AI Generated Music.   
+<h3>Playing with AI Music!</h3>
 
-- [Youtube](https://youtube.com/@projectsuno?si=RP_J0neW-kF5owKT) 
-- [Music @SunoAI](https://suno.com/@projectsuno)
+ProjectSuno is an experiment with Suno AI to create personalized music. If you're curious to hear what's possible, you can explore more of the content
+
+- [Project Suno @Youtube](https://youtube.com/@projectsuno?si=RP_J0neW-kF5owKT) 
+- [Project Suno @SunoAI](https://suno.com/@projectsuno)
   
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4Fc8gutfE" title="Dil Ka Safar !!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

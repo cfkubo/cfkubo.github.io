@@ -7,8 +7,8 @@ const basketY = canvas.height - basketHeight - 10;
 const basketSpeed = 40;
 let score = 0;
 const fallingObjects = [];
-const objectRadius = 10;
-const objectSpeed = 2;
+const objectRadius = 14;
+const objectSpeed = 4;
 const spawnInterval = 1000; // Milliseconds
 
 function getRandom(min, max) {

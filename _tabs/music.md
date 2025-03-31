@@ -53,7 +53,7 @@ ProjectSuno is an experiment with Suno AI to create personalized music. If you'r
 <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kyx1TWegQQE" title="Pyaar Dard Ya Dua !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6p2STl9HIWI?list=PL1P91v5-Pois8BO9ZOEPFS9ATjLrtHLqw" title="Pehla se zyada peene laga hai !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/zsTfi5jeLEE" title="Kya Banau Aaj !!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ### Playlists:

@@ -15,6 +15,8 @@ let snake = {
 let apples = [];
 const numberOfApples = 11;
 
+const catchSound = new Audio('/assets/audio/catch_dot.wav'); // Preload sound
+
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -38,6 +40,7 @@ updateScoreDisplay(); // Initialize the score display
 
 function updateScoreDisplay() {
   scoreDisplay.textContent = `Score: ${score}`;
+  catchSound.play(); // Play the sound effect
 }
 
 function loop() {

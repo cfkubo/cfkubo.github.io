@@ -25,7 +25,10 @@ Checkout my LinkedIn profile
 
 ## Music:
 Checkout my music @SunoAI: Suno you are Awesome !!!
-- [Music @SunoAI](https://suno.com/@projectsuno)
+- [Project Suno @SunoAI](https://suno.com/@projectsuno)
+
+## Youtube:
+- [Project Suno @Youtube](https://youtube.com/@projectsuno?si=RP_J0neW-kF5owKT) 
 
 ## Github:
 You can also check out my latest coding activity on GitHub:

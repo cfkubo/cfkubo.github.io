@@ -32,7 +32,7 @@ You can also check out my latest coding activity on GitHub:
 
 [![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=cfkubo&theme=github-dark&bg_color=151515&hide_border=true&line=fff&point=fff&area=true)](https://github.com/cfkubo)
 
-Feel free to connect with me on [GitHub](https://github.com/cfkubo).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/arul-vannala-tanzu/) 
 <!-- ![alt text](static/kala.jpg) -->
 
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"

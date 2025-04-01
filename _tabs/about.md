@@ -27,6 +27,12 @@ Checkout my LinkedIn profile
 Checkout my music @SunoAI: Suno you are Awesome !!!
 - [Music @SunoAI](https://suno.com/@projectsuno)
 
+## Github:
+You can also check out my latest coding activity on GitHub:
+
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=cfkubo&theme=github-dark&bg_color=151515&hide_border=true&line=fff&point=fff&area=true)](https://github.com/cfkubo)
+
+Feel free to connect with me on [GitHub](https://github.com/cfkubo).
 <!-- ![alt text](static/kala.jpg) -->
 
 <script data-goatcounter="https://arulwebsite.goatcounter.com/count"

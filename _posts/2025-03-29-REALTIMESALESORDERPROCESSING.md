@@ -209,6 +209,7 @@ docker run -d --hostname my-rabbit ---name rabbitmq --network rmq-network  -p 55
 #### Enable RabbitMQ Streams Plugin
 ```
 docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream 
+docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream_management
 ```
 #### sample output
 ```
@@ -233,7 +234,7 @@ started 2 plugins.
 
 1. **Clone the repository:**
    ```
-   git clone <repository-url>
+   git clone https://github.com/cfkubo/spring-boot-random-data-generator
    cd random-data-generator
    ```
 

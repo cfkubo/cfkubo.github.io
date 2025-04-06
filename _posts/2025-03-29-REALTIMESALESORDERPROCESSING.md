@@ -212,7 +212,13 @@ The Spring Boot application flow:
 * Publish the JSON payload to the RabbitMQ queue.
   
 
-### Spring Cloud Data Flow Pipelines
+### Spring Cloud Data Flow Applicaton
+
+![scdfimportapps](/static/scdf-import-apps.png)
+
+![scdfapps](/static/scdfsourcesink.png)
+
+
 You will define two Spring Cloud Data Flow pipelines:
 
 #### RabbitMQ to PostgreSQL
@@ -226,6 +232,7 @@ This pipeline reads from the RabbitMQ queue and writes to the salesorders table 
 insert-to-pg=rabbit --queues=salesOrderQuorumQueue --port=5672 --publisher-confirm-type=CORRELATED  | jdbc --password=postgres --username=postgres --url="jdbc:postgresql://localhost:5432/postgres" --table-name="public.salesorders"
 ```
 
+![scdfstoretopg](/static/scdf-storetopg.png)
 
 #### PostgreSQL CDC to GemFire
 This pipeline captures changes from the salesorders_read table in PostgreSQL and writes them to GemFire.
@@ -246,6 +253,7 @@ This pipeline captures changes from the salesorders_read table in PostgreSQL and
 cdc-fruad-geode=cdc-debezium --cdc.name=postgres-connector --cdc.config.database.dbname=postgres --connector=postgres --cdc.config.database.server.name=my-app-connector --cdc.config.database.user=postgres --cdc.config.database.password=postgres --cdc.config.database.hostname=localhost --cdc.config.database.port=5432 --cdc.flattening.enabled="true" --cdc.config.schema.include.list=public --cdc.config.table.include.list="public.salesorders_read" | geode --host-addresses=localhost:10334 --region-name=orders --key-expression="payload.getField('order_id')" --json="true"
 ```
 
+![scdfstoretogem](/static/scdf-storetogem.png)
 
 ### Configuring GemFire
 Connect to the GemFire Locator using gfsh:

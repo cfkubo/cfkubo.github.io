@@ -250,16 +250,7 @@ started 2 plugins.
    mvn spring-boot:run
    ```
 
-5. **Build image**
-   ```
-    mvn spring-boot:build-image
-   ```
-
-6. **Run on Docker**
-   ```
-   docker run --rm -p 8080:8080 docker.io/library/random:0.0.1-SNAPSHOT
-   ```
-## Usage
+#### Usage
 
 The application will generate random sales orders and send them to RabbitMQ.  sThe application also logs the details of each generated order.
 
@@ -272,7 +263,7 @@ Example Sales Order Payload (as a String that will be embedded in JSON):
 product='Laptop', price=1200.50, quantity=1, shipTo='Home', paymentMethod='Credit Card', orderDate=2025-03-27, address='123 Main St', storeName='Tech Store', storeAddress='456 Oak Ave', salesRepName='John Doe'
 ```
 
-The Spring Boot application flow:
+#### The Spring Boot application flow:
 
 * Establish a connection to RabbitMQ.
 * Define a queue (e.g., salesOrderQuorumQueue).
@@ -281,7 +272,7 @@ The Spring Boot application flow:
 * Publish the JSON payload to the RabbitMQ queue.
   
 
-### Spring Cloud Data Flow Applicaton
+### Spring Cloud Data Flow(SCDF)
 
 ![scdfimportapps](/static/scdf-import-apps.png)
 

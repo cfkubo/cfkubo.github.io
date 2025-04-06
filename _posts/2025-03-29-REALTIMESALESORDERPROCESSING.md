@@ -276,8 +276,9 @@ create region --name=orders --type=PARTITION
 You can use gfsh to query the "orders" region in GemFire:
 
 Connect to the GemFire Locator:
-
+```
 docker exec -it gf-locator gfsh
+```
 
 ```
 connect
@@ -293,6 +294,8 @@ You should see the sales order data (as JSON) that originated from your Spring B
 ### Conclusion
 This workflow demonstrates a powerful and scalable approach to real-time data processing. By combining Spring Boot for application logic, RabbitMQ for asynchronous communication, Spring Cloud Data Flow for building data pipelines, PostgreSQL for persistent storage and data transformation, Debezium for change data capture, and GemFire for a high-performance in-memory data grid, you can build responsive and data-driven applications. This architecture allows for decoupling of services, efficient data transformation, and real-time data availability for downstream consumers.
 
+### Reference 
+- [Event Streaming Showcase](https://github.com/ggreen/event-streaming-showcase)
 
 <script src="https://giscus.app/client.js"
         data-repo="cfkubo/cfkubo.github.io"

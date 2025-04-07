@@ -43,7 +43,7 @@ Before you begin, ensure you have the following installed and running:
 1.  **Start PostgreSQL with WAL Replication:**
 
     ```
-    docker run  --rm --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres debezium/example-postgres:2.3.3.Final
+    docker run  -d --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres debezium/example-postgres:2.3.3.Final
     ```
 
 2.  **Create a Docker Network for GemFire:**
@@ -55,13 +55,13 @@ Before you begin, ensure you have the following installed and running:
 3.  **Start GemFire Locator:**
 
     ```
-    docker run -e 'ACCEPT_TERMS=y' --rm --name gf-locator --network=gf-network -p 10334:10334 -p 1099:1099 -p 7070:7070 gemfire/gemfire:9.15.6 gfsh start locator --name=locator1 --jmx-manager-hostname-for-clients=127.0.0.1 --hostname-for-clients=127.0.0.1
+    docker run -e 'ACCEPT_TERMS=y' -d --name gf-locator --network=gf-network -p 10334:10334 -p 1099:1099 -p 7070:7070 gemfire/gemfire:9.15.6 gfsh start locator --name=locator1 --jmx-manager-hostname-for-clients=127.0.0.1 --hostname-for-clients=127.0.0.1
     ```
 
 4.  **Start GemFire Server:**
 
     ```
-    docker run -e 'ACCEPT_TERMS=y' --rm --name gf-server1 --network=gf-network -p 40404:40404 gemfire/gemfire:9.15.6 gfsh start server --name=server1 --locators=gf-locator\[10334\] --hostname-for-clients=127.0.0.1
+    docker run -e 'ACCEPT_TERMS=y' -d --name gf-server1 --network=gf-network -p 40404:40404 gemfire/gemfire:9.15.6 gfsh start server --name=server1 --locators=gf-locator\[10334\] --hostname-for-clients=127.0.0.1
     ```
 
 

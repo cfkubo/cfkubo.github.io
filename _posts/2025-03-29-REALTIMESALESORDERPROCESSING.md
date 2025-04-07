@@ -64,6 +64,41 @@ Before you begin, ensure you have the following installed and running:
     docker run -e 'ACCEPT_TERMS=y' --rm --name gf-server1 --network=gf-network -p 40404:40404 gemfire/gemfire:9.15.6 gfsh start server --name=server1 --locators=gf-locator\[10334\] --hostname-for-clients=127.0.0.1
     ```
 
+
+5. **Run rabbitmq in docker**
+    ```
+    docker network create rmq-network
+
+    docker run -d --hostname my-rabbit ---name rabbitmq --network rmq-network  -p 5552:5552 -p 15672:15672 -p 5672:5672  rabbitmq:3-management
+
+    ```
+
+6. **Enable RabbitMQ Streams Plugin**
+    ```
+    docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream 
+    docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream_management
+    ```
+8. **sample output from RabbitMQ after enabling stream plugin**
+    ```
+    rabbitmq_stream_management
+    Enabling plugins on node rabbit@d212bb73a912:
+    rabbitmq_stream
+    rabbitmq_stream_management
+    The following plugins have been configured:
+      rabbitmq_management
+      rabbitmq_management_agent
+      rabbitmq_prometheus
+      rabbitmq_stream
+      rabbitmq_stream_management
+      rabbitmq_web_dispatch
+    Applying plugin configuration to rabbit@d212bb73a912...
+    The following plugins have been enabled:
+      rabbitmq_stream
+      rabbitmq_stream_management
+
+    started 2 plugins.
+    ```
+
 ### Database Schema and Logic (PostgreSQL)
 
 Execute the following SQL scripts in your PostgreSQL database (`postgres` database created by the Docker container):
@@ -183,6 +218,10 @@ CREATE TABLE IF NOT EXISTS public.salesorders_fraud
 );
 ```
 
+Save the above logic to bootstrap.sql
+```
+docker exec -i postgres psql -U postgres postgres < bootstrapsql 
+```
 <!-- ### Example queries 
 For testing and verification
 ```
@@ -196,41 +235,6 @@ select count(*) from public.salesorders_fraud;
 You'll need a Spring Boot application that generates sales order data in a specific format (matching the regular expressions in the PostgreSQL stored procedure) and sends it as JSON to a RabbitMQ queue.
 
 Demo Application you can leverage: [Sales Order Generator](https://github.com/cfkubo/spring-boot-random-data-generator)
-
-
-#### Run rabbitmq in docker
-```
-docker network create rmq-network
-
-docker run -d --hostname my-rabbit ---name rabbitmq --network rmq-network  -p 5552:5552 -p 15672:15672 -p 5672:5672  rabbitmq:3-management
-
-```
-
-#### Enable RabbitMQ Streams Plugin
-```
-docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream 
-docker exec rabbitmq rabbitmq-plugins enable rabbitmq_stream_management
-```
-#### sample output
-```
-rabbitmq_stream_management
-Enabling plugins on node rabbit@d212bb73a912:
-rabbitmq_stream
-rabbitmq_stream_management
-The following plugins have been configured:
-  rabbitmq_management
-  rabbitmq_management_agent
-  rabbitmq_prometheus
-  rabbitmq_stream
-  rabbitmq_stream_management
-  rabbitmq_web_dispatch
-Applying plugin configuration to rabbit@d212bb73a912...
-The following plugins have been enabled:
-  rabbitmq_stream
-  rabbitmq_stream_management
-
-started 2 plugins.
-```
 
 1. **Clone the repository:**
    ```

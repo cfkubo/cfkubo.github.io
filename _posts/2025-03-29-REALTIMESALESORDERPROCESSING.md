@@ -183,12 +183,6 @@ CREATE TABLE IF NOT EXISTS public.salesorders_fraud
 );
 ```
 
-Save the above logic to file.sql and run the below command to apply the schema to postgres
-
-```
-docker exec -i postgres psql -U postgres  postgres < file.sql 
-```
-
 <!-- ### Example queries 
 For testing and verification
 ```
@@ -204,8 +198,7 @@ You'll need a Spring Boot application that generates sales order data in a speci
 Demo Application you can leverage: [Sales Order Generator](https://github.com/cfkubo/spring-boot-random-data-generator)
 
 
-#### Deploy RabbitMQ 
-Deploy RabbitMQ in docker and enable the streams plugin needed for the application to work.
+#### Run rabbitmq in docker
 ```
 docker network create rmq-network
 
@@ -238,7 +231,6 @@ The following plugins have been enabled:
 
 started 2 plugins.
 ```
-#### Deploy the sale order generator application
 
 1. **Clone the repository:**
    ```

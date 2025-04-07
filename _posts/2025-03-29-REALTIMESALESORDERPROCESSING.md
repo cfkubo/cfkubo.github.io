@@ -276,7 +276,7 @@ product='Laptop', price=1200.50, quantity=1, shipTo='Home', paymentMethod='Credi
 ### Spring Cloud Data Flow(SCDF)
 Spring Cloud Data Flow is provides an dashabord and shell to deploy the data pipelines. You can leverge the below file or download the never versions if needed.
 
-#### Download SCDF Server, SKipper and  Shell
+#### Download SCDF Server, Skipper and  Shell
 ```
 wget https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server/2.11.5/spring-cloud-dataflow-server-2.11.5.jar
 

@@ -16,38 +16,49 @@ ProjectSuno is an experiment with Suno AI to create personalized music. If you'r
 - [Project Suno @SunoAI](https://suno.com/@projectsuno)
   
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4Fc8gutfE" title="Dil Ka Safar !!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ad-tGomu2Fk" title="Suniyo Suno Suno !!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-<iframe  width="560" height="315" src="https://www.youtube.com/embed/Eqg79-FF934" title="Sapno Ke Nagiri !!! #suno #sunomusic #melodic #acoustic #lullaby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-<iframe  width="560" height="315" src="https://www.youtube.com/embed/EeAhwlRuLik" title="No Hero Not Zero !!!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+### Grooves in Englisssssh
 
 <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+   
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Bxth4AlAMII" title="Prank Kings Forever !!! #viraj #vidur #tristin #ryker #kala" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/l973d8d1FFU" title="You&#39;re Under Arrest !!! #music #dance #underarrest #everythingUsaycanbeusedagainstU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+
   <iframe width="560" height="315"  src="https://www.youtube.com/embed/gZcUTUvRGPg" title="One Song Can Change Ur Life !!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  <iframe width="560" height="315"  src="https://www.youtube.com/embed/TfnDrnATeqw" title="Tum Aur Hum !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/b4Hn9Fc7CbU" title="Pump It Up !!!! #music #kala" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+
+   <iframe width="560" height="315"  src="https://www.youtube.com/embed/gZ_8escWz2Y" title="Hey Suno Drink Water !!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/EeAhwlRuLik" title="No Hero Not Zero !!!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </div>
 
-<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
- <iframe width="560" height="315"  src="https://www.youtube.com/embed/gZ_8escWz2Y" title="Hey Suno Drink Water !!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Masti in Hindissh 
+
+<!-- <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/tv-AjBX3NxA" title="Postgres Power !!! #suno #sunomusic  #postgres #pgml" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div> -->
+
+<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WPdJS_1ycZw" title="Gaye Tho Gaye Kahaa !!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+  
+  <iframe  width="560" height="315" src="https://www.youtube.com/embed/Eqg79-FF934" title="Sapno Ke Nagiri !!! #suno #sunomusic #melodic #acoustic #lullaby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 </div>
 
 <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Xz4Fc8gutfE" title="Dil Ka Safar !!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Ad-tGomu2Fk" title="Suniyo Suno Suno !!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
-  <iframe  width="560" height="315" src="https://www.youtube.com/embed/Eqg79-FF934" title="Sapno Ke Nagiri !!! #suno #sunomusic #melodic #acoustic #lullaby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EeAhwlRuLik" title="No Hero Not Zero !!!!!!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
@@ -59,9 +70,9 @@ ProjectSuno is an experiment with Suno AI to create personalized music. If you'r
 ### Playlists:
 
 <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bOc5Lx3hRC8?list=PL1P91v5-Poiu6yhoVVPhUvePCNtdau-TH" title="Shot Pe Shot !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eCeUuEHYoTo?list=PL1P91v5-Poiut92RuIalzKNNmeqHGlEw0" title="Prank Kings Forever !!! #vidur #viraj #tristin #ryker #kala #sandesh #prankkings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/scv69JbtgKY?list=PL1P91v5-Poiut92RuIalzKNNmeqHGlEw0" title="Scroll and swipe !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bOc5Lx3hRC8?list=PL1P91v5-Poiu6yhoVVPhUvePCNtdau-TH" title="Shot Pe Shot !!! #suno #sunomusic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 

@@ -74,7 +74,7 @@ Whoa, what's all that? Let's break it down:
 
 -p 15692:15692: Maps the RabbitMQ Prometheus metrics port (for monitoring).
 
--p 5552:5552: Maps the Erlang distribution port (used internally by RabbitMQ).
+-p 5552:5552: Maps the  stream listener port
 
 rabbitmq:4.0-management: The official RabbitMQ Docker image with the management plugin pre-installed.
 

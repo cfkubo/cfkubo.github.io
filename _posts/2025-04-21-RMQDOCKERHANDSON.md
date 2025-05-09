@@ -61,16 +61,26 @@ docker run -d --hostname my-rabbit --name rabbitmq --network rmq-network -p 5672
 Whoa, what's all that? Let's break it down:
 
 -d: Runs the container in the background (detached mode).
+
 --hostname my-rabbit: Sets the hostname of the container.
+
 --name rabbitmq: Gives our container a friendly name: rabbitmq.
+
 --network rmq-network: Attaches this container to the rmq-network we created.
+
 -p 5672:5672: Maps the RabbitMQ AMQP port (for messaging).
+
 -p 15672:15672: Maps the RabbitMQ Management UI port (for web access).
+
 -p 15692:15692: Maps the RabbitMQ Prometheus metrics port (for monitoring).
+
 -p 5552:5552: Maps the Erlang distribution port (used internally by RabbitMQ).
+
 rabbitmq:4.0-management: The official RabbitMQ Docker image with the management plugin pre-installed.
 
+
 ## 🛠️Powering Up! Enabling RabbitMQ Plugins
+
 RabbitMQ has some awesome superpowers hidden in plugins. Let's enable a few useful ones:
 
 ```

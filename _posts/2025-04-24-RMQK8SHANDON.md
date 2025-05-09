@@ -1,3 +1,30 @@
+---
+title: RabbitMQ on Kubernetes Hands-On Adventure! 
+date: 2025-04-24 01:01:01 +/-TTTT
+categories: [rabbitmq, messaging]
+tags: [rabbitmq, messaging]     # TAG names should always be lowercase
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2P5CM1K51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q2P5CM1K51');
+</script>
+
+<script data-goatcounter="https://arulwebsite.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+
+
 # 🚀 RabbitMQ on Kubernetes: Your Fun, Hands-On Adventure! 🐰📦
 
 Hey there, fellow tech explorers! 👋 Ready to dive into the world of messaging queues and Kubernetes? Buckle up, because this workshop is your ticket to getting your hands delightfully dirty with OSS RabbitMQ running like a charm on K8s!

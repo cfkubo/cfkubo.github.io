@@ -34,7 +34,7 @@ Hey there, fellow tech explorers! 👋 Ready to dive into the world of messaging
 First things first, let's snag the treasure chest of code we'll be using. Open up your terminal and type these magical incantations:
 
 ```
-git clone [https://github.com/cfkubo/rmq-workshop](https://github.com/cfkubo/rmq-workshop)
+git clone https://github.com/cfkubo/rmq-workshop
 cd rmq-workshop/k8s
 ```
 Boom! You've got the code. Now, let's navigate to the k8s folder where all the Kubernetes goodies are hiding.

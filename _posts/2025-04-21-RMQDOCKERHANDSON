@@ -1,6 +1,6 @@
 ---
 title: RabbitMQ in a Box! Your Whirlwind Docker Adventure! 
-date: 2025-04-22 01:01:01 +/-TTTT
+date: 2025-04-21 01:01:01 +/-TTTT
 categories: [rabbitmq, messaging , docker]
 tags: [rabbitmq, messaging, docker ]     # TAG names should always be lowercase
 ---

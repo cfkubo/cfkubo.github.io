@@ -44,7 +44,7 @@ Think of the RabbitMQ Operator as your friendly K8s assistant, making sure your 
 
 
 ```
-kubectl apply -f "https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml"
+kubectl apply -f https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml
 
 ```
 
@@ -72,7 +72,7 @@ rabbitmq-system   Active   2s
 Sometimes, you just need a solo RabbitMQ instance to get started. Let's deploy a simple, single-node cluster:
 
 ```
-kubectl apply -f [https://raw.githubusercontent.com/rabbitmq/cluster-operator/main/docs/examples/hello-world/rabbitmq.yaml](https://raw.githubusercontent.com/rabbitmq/cluster-operator/main/docs/examples/hello-world/rabbitmq.yaml)
+kubectl apply -f https://raw.githubusercontent.com/rabbitmq/cluster-operator/main/docs/examples/hello-world/rabbitmq.yaml
 ```
 
 Kubernetes is now off to create our RabbitMQ pod. Let's see if it's up and hopping:

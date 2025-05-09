@@ -1,5 +1,5 @@
 ---
-title: RabbitMQ in a Box! Your Whirlwind Docker Adventure! 
+title: RabbitMQ in a Box! Your Whirlwind Docker Adventure!
 date: 2025-04-21 01:01:01 +/-TTTT
 categories: [rabbitmq, messaging , docker]
 tags: [rabbitmq, messaging, docker ]     # TAG names should always be lowercase
@@ -60,23 +60,23 @@ docker run -d --hostname my-rabbit --name rabbitmq --network rmq-network -p 5672
 
 Whoa, what's all that? Let's break it down:
 
-**-d:** Runs the container in the background (detached mode).
+-d: Runs the container in the background (detached mode).
 
-**--hostname my-rabbit:** Sets the hostname of the container.
+--hostname my-rabbit: Sets the hostname of the container.
 
-**--name rabbitmq:** Gives our container a friendly name: rabbitmq.
+--name rabbitmq: Gives our container a friendly name: rabbitmq.
 
-**--network rmq-network:** Attaches this container to the rmq-network we created.
+--network rmq-network: Attaches this container to the rmq-network we created.
 
-**-p 5672:5672:** Maps the RabbitMQ AMQP port (for messaging).
+-p 5672:5672: Maps the RabbitMQ AMQP port (for messaging).
 
-**-p 15672:15672:** Maps the RabbitMQ Management UI port (for web access).
+-p 15672:15672: Maps the RabbitMQ Management UI port (for web access).
 
-**-p 15692:15692:** Maps the RabbitMQ Prometheus metrics port (for monitoring).
+-p 15692:15692: Maps the RabbitMQ Prometheus metrics port (for monitoring).
 
-**-p 5552:5552:** Maps the Erlang distribution port (used internally by RabbitMQ).
+-p 5552:5552: Maps the Erlang distribution port (used internally by RabbitMQ).
 
-**rabbitmq:4.0-management:** The official RabbitMQ Docker image with the management plugin pre-installed.
+rabbitmq:4.0-management: The official RabbitMQ Docker image with the management plugin pre-installed.
 
 
 ## 🛠️Powering Up! Enabling RabbitMQ Plugins
@@ -95,15 +95,15 @@ docker exec rabbitmq rabbitmq-plugins enable rabbitmq_shovel_management
 
 These commands tell our running rabbitmq container to activate plugins for:
 
-**rabbitmq_stream:** For working with RabbitMQ Streams (a different kind of messaging).
+rabbitmq_stream: For working with RabbitMQ Streams (a different kind of messaging).
 
-**rabbitmq_stream_management:** The UI for managing Streams.
+rabbitmq_stream_management: The UI for managing Streams.
 
-**rabbitmq_prometheus:** For exposing metrics in a format Prometheus can understand (monitoring!).
+rabbitmq_prometheus: For exposing metrics in a format Prometheus can understand (monitoring!).
 
-**rabbitmq_shovel:** For moving messages between different RabbitMQ instances or queues.
+rabbitmq_shovel: For moving messages between different RabbitMQ instances or queues.
 
-**rabbitmq_shovel_management:** The UI for managing Shovels.
+rabbitmq_shovel_management: The UI for managing Shovels.
 
 
 ## 🚀Meet Your New Best Friend: RabbitmqAdmin CLI
@@ -115,7 +115,6 @@ https://github.com/rabbitmq/rabbitmqadmin-ng/releases
 
 Once downloaded, let's make it executable and put it where you can easily use it:
 ```
-
 # Assuming you downloaded a file like rabbitmqadmin-2.1.0-your-os
 cp rabbitmqadmin-2.1.0-* rmqadmin
 chmod +x rmqadmin
@@ -158,7 +157,6 @@ Let's simulate some message traffic using the rabbitmq-perf-test tool running as
 Quorum queues are a more robust and durable type of queue in RabbitMQ. Let's see them in action:
 
 ```
-
 docker run --name perf-tst -d --network rmq-network pivotalrabbitmq/perf-test:latest --uri amqp://guest:guest@rabbitmq:5672 --quorum-queue --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop" --pmessages 10000 --queue "sa-workshop" --rate 100 --consumer-rate 10 --multi-ack-every 10 -c 10
 ```
 
@@ -271,7 +269,3 @@ This command provides a breakdown of the memory usage on the specified RabbitMQ 
 Give yourself a pat on the back! You've successfully navigated the world of RabbitMQ within Docker containers. You've launched RabbitMQ, explored its features, sent messages, monitored its performance, and even used the command-line admin tool.
 
 Keep experimenting and building awesome things with RabbitMQ and Docker! The containerized messaging universe is yours to explore! 🚀🐰🐳
-
-
-
-

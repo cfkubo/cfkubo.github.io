@@ -44,7 +44,7 @@ Think of the RabbitMQ Operator as your friendly K8s assistant, making sure your 
 
 
 ```
-kubectl apply -f "[https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml](https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml)"
+kubectl apply -f "https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml"
 
 ```
 

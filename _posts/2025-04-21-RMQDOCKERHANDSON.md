@@ -34,7 +34,7 @@ Hey there, Docker wranglers and message mavens! 👋 Ready to get your hands on 
 Before we fire up our Docker engines, let's grab the workshop blueprints. Open your terminal and punch in these commands:
 
 ```
-git clone [https://github.com/cfkubo/rmq-workshop](https://github.com/cfkubo/rmq-workshop)
+git clone https://github.com/cfkubo/rmq-workshop
 cd rmq-workshop/docker
 ```
 
@@ -61,21 +61,22 @@ docker run -d --hostname my-rabbit --name rabbitmq --network rmq-network -p 5672
 Whoa, what's all that? Let's break it down:
 
 **-d:** Runs the container in the background (detached mode).
+
 **--hostname my-rabbit:** Sets the hostname of the container.
 
---name rabbitmq: Gives our container a friendly name: rabbitmq.
+**--name rabbitmq:** Gives our container a friendly name: rabbitmq.
 
---network rmq-network: Attaches this container to the rmq-network we created.
+**--network rmq-network:** Attaches this container to the rmq-network we created.
 
--p 5672:5672: Maps the RabbitMQ AMQP port (for messaging).
+**-p 5672:5672:** Maps the RabbitMQ AMQP port (for messaging).
 
--p 15672:15672: Maps the RabbitMQ Management UI port (for web access).
+**-p 15672:15672:** Maps the RabbitMQ Management UI port (for web access).
 
--p 15692:15692: Maps the RabbitMQ Prometheus metrics port (for monitoring).
+**-p 15692:15692:** Maps the RabbitMQ Prometheus metrics port (for monitoring).
 
--p 5552:5552: Maps the Erlang distribution port (used internally by RabbitMQ).
+**-p 5552:5552:** Maps the Erlang distribution port (used internally by RabbitMQ).
 
-rabbitmq:4.0-management: The official RabbitMQ Docker image with the management plugin pre-installed.
+**rabbitmq:4.0-management:** The official RabbitMQ Docker image with the management plugin pre-installed.
 
 
 ## 🛠️Powering Up! Enabling RabbitMQ Plugins
@@ -94,11 +95,15 @@ docker exec rabbitmq rabbitmq-plugins enable rabbitmq_shovel_management
 
 These commands tell our running rabbitmq container to activate plugins for:
 
-rabbitmq_stream: For working with RabbitMQ Streams (a different kind of messaging).
-rabbitmq_stream_management: The UI for managing Streams.
-rabbitmq_prometheus: For exposing metrics in a format Prometheus can understand (monitoring!).
-rabbitmq_shovel: For moving messages between different RabbitMQ instances or queues.
-rabbitmq_shovel_management: The UI for managing Shovels.
+**rabbitmq_stream:** For working with RabbitMQ Streams (a different kind of messaging).
+
+**rabbitmq_stream_management:** The UI for managing Streams.
+
+**rabbitmq_prometheus:** For exposing metrics in a format Prometheus can understand (monitoring!).
+
+**rabbitmq_shovel:** For moving messages between different RabbitMQ instances or queues.
+
+**rabbitmq_shovel_management:** The UI for managing Shovels.
 
 
 ## 🚀Meet Your New Best Friend: RabbitmqAdmin CLI
@@ -124,7 +129,6 @@ This sequence renames the downloaded file to rmqadmin, gives it execution permis
 Let's set up a new user with specific permissions to interact with our RabbitMQ server.
 
 ```
-
 docker exec rabbitmq rabbitmqctl add_user arul password
 docker exec rabbitmq rabbitmqctl set_permissions  -p / arul ".*" ".*" ".*"
 docker exec rabbitmq rabbitmqctl set_user_tags arul administrator

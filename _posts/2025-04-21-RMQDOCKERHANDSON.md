@@ -141,7 +141,7 @@ rabbitmqctl set_user_tags arul administrator: Assigns the administrator tag to t
 ## 🚀👁️‍🗨️ Your RabbitMQ Control Center: The Management UI
 Ready for a visual tour? Open your web browser and navigate to:
 
-http://localhost:15672
+[http://localhost:15672](http://localhost:15672)
 
 You'll be greeted with a login screen. You can use the default credentials:
 

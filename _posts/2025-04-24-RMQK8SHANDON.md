@@ -53,60 +53,75 @@ This command tells Kubernetes to apply the configuration for the RabbitMQ Cluste
 To make sure our assistant arrived safely, let's peek at the namespaces:
 
 
-
+```
 kubectl get namespaces
+```
+
 You should see something like this in the output, and the important line here is rabbitmq-system – that's where our operator is chilling:
 
+```
 NAME              STATUS   AGE
 default           Active   73s
 kube-node-lease   Active   73s
 kube-public       Active   73s
 kube-system       Active   73s
 rabbitmq-system   Active   2s
-🐇 Single and Ready to Mingle: Deploying a Single-Node RabbitMQ Cluster
+```
+
+## 🐇 Single and Ready to Mingle: Deploying a Single-Node RabbitMQ Cluster
 Sometimes, you just need a solo RabbitMQ instance to get started. Let's deploy a simple, single-node cluster:
 
-
-
+```
 kubectl apply -f [https://raw.githubusercontent.com/rabbitmq/cluster-operator/main/docs/examples/hello-world/rabbitmq.yaml](https://raw.githubusercontent.com/rabbitmq/cluster-operator/main/docs/examples/hello-world/rabbitmq.yaml)
+```
+
 Kubernetes is now off to create our RabbitMQ pod. Let's see if it's up and hopping:
 
-
-
+```
 kubectl get po
+```
+
 You should see a pod named something like hello-world-server-0 in the Running state:
 
+```
 NAME                   READY   STATUS    RESTARTS   AGE
 hello-world-server-0   1/1     Running   0          3m19s
+```
+
 To get a more RabbitMQ-centric view, let's ask the operator about our cluster:
 
-
-
+```
 k get rabbitmqclusters.rabbitmq.com hello-world
-If all went well, you'll see True for both ALLREPLICASREADY and RECONCILESUCCESS:
+```
 
+If all went well, you'll see True for both ALLREPLICASREADY and RECONCILESUCCESS:
+```
 NAME          ALLREPLICASREADY   RECONCILESUCCESS   AGE
 hello-world   True               True               5m26s
+```
+
 Hooray! Your single RabbitMQ node is ready!
 
-👯‍♀️ The More the Merrier: Deploying a Multi-Node RabbitMQ Cluster
+## 👯‍♀️ The More the Merrier: Deploying a Multi-Node RabbitMQ Cluster
 Now, let's crank things up a notch and deploy a cluster with multiple RabbitMQ nodes for better resilience and scalability. We'll use a configuration in the rmq.yaml file (make sure this file exists in your k8s directory):
 
-
-
+```
 kubectl apply -f rmq.yaml
+```
+
 Let's check the pods again to see our RabbitMQ gang:
-
-
-
+```
 kubectl  get pods
+```
 You should now see multiple pods starting with my-tanzu-rabbit-server-:
-
+```
 NAME                       READY   STATUS    RESTARTS   AGE
 hello-world-server-0       1/1     Running   0          10m
 my-tanzu-rabbit-server-0   1/1     Running   0          2m59s
 my-tanzu-rabbit-server-1   1/1     Running   0          2m59s
 my-tanzu-rabbit-server-2   1/1     Running   0          2m59s
+```
+
 Awesome! You've got a multi-node RabbitMQ cluster running on Kubernetes!
 
 🔌 Superpowers Activated: Enabling RabbitMQ Plugins

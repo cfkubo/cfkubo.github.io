@@ -60,9 +60,8 @@ docker run -d --hostname my-rabbit --name rabbitmq --network rmq-network -p 5672
 
 Whoa, what's all that? Let's break it down:
 
--d: Runs the container in the background (detached mode).
-
---hostname my-rabbit: Sets the hostname of the container.
+**-d:** Runs the container in the background (detached mode).
+**--hostname my-rabbit:** Sets the hostname of the container.
 
 --name rabbitmq: Gives our container a friendly name: rabbitmq.
 

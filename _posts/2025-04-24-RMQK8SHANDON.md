@@ -39,7 +39,7 @@ cd rmq-workshop/k8s
 ```
 Boom! You've got the code. Now, let's navigate to the k8s folder where all the Kubernetes goodies are hiding.
 
-🛠️ Laying the Foundation: Installing the RabbitMQ Operator
+## 🛠️ Laying the Foundation: Installing the RabbitMQ Operator
 Think of the RabbitMQ Operator as your friendly K8s assistant, making sure your RabbitMQ clusters are healthy and happy. Let's get this helpful buddy installed on your Kubernetes cluster (any K8s will do!):
 
 
@@ -124,7 +124,7 @@ my-tanzu-rabbit-server-2   1/1     Running   0          2m59s
 
 Awesome! You've got a multi-node RabbitMQ cluster running on Kubernetes!
 
-🔌 Superpowers Activated: Enabling RabbitMQ Plugins
+## 🔌 Superpowers Activated: Enabling RabbitMQ Plugins
 RabbitMQ has tons of cool features packed into plugins. Let's enable some useful ones on one of our RabbitMQ servers (we'll target the first one, my-tanzu-rabbit-server-0):
 
 Bash

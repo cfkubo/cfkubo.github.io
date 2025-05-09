@@ -111,7 +111,7 @@ Want a command-line tool to interact with RabbitMQ? Say hello to rabbitmqadmin!
 
 Head over to this link to grab the binary for your operating system:
 
-https://github.com/rabbitmq/rabbitmqadmin-ng/releases
+[https://github.com/rabbitmq/rabbitmqadmin-ng/releases](https://github.com/rabbitmq/rabbitmqadmin-ng/releases)
 
 Once downloaded, let's make it executable and put it where you can easily use it:
 ```

@@ -173,7 +173,7 @@ k port-forward svc/my-tanzu-rabbit 15672:15672
 
 Now, point your browser to:
 
-http://localhost:15672
+[http://localhost:15672](http://localhost:15672)
 
 You can log in using either the default credentials you just fetched or the arul/password user you created. Explore the UI – it's like the cockpit of your RabbitMQ spaceship!
 

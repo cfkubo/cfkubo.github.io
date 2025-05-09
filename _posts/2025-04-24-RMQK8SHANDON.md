@@ -68,6 +68,24 @@ kube-system       Active   73s
 rabbitmq-system   Active   2s
 ```
 
+
+## 🚀Meet Your New Best Friend: RabbitmqAdmin CLI
+Want a command-line tool to interact with RabbitMQ? Say hello to rabbitmqadmin!
+
+Head over to this link to grab the binary for your operating system:
+
+[https://github.com/rabbitmq/rabbitmqadmin-ng/releases](https://github.com/rabbitmq/rabbitmqadmin-ng/releases)
+
+Once downloaded, let's make it executable and put it where you can easily use it:
+```
+# Assuming you downloaded a file like rabbitmqadmin-2.1.0-your-os
+cp rabbitmqadmin-2.1.0-* rmqadmin
+chmod +x rmqadmin
+sudo mv rmqadmin /usr/local/bin
+rmqadmin --help
+```
+
+
 ## 🐇 Single and Ready to Mingle: Deploying a Single-Node RabbitMQ Cluster
 Sometimes, you just need a solo RabbitMQ instance to get started. Let's deploy a simple, single-node cluster:
 

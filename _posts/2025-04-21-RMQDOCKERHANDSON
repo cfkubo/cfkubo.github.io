@@ -55,7 +55,6 @@ docker network create rmq-network
 Now, let's fire up a RabbitMQ container with the management UI enabled. This gives us a web-based control panel – super handy!
 
 ```
-
 docker run -d --hostname my-rabbit --name rabbitmq --network rmq-network -p 5672:5672 -p 15672:15672 -p 15692:15692 -p 5552:5552 rabbitmq:4.0-management
 ```
 
@@ -212,7 +211,7 @@ Voila! You should now see a Grafana dashboard displaying key metrics from your R
 ## 🚚 LAB 5: Shovelling Messages Around!
 Remember the Shovel plugin? Let's use it to move messages between queues:
 
-``
+```
 docker exec rabbitmq rabbitmqctl set_parameter shovel my-shovel '{"src-protocol": "amqp091", "src-uri": "amqp://guest:guest@rabbitmq", "src-queue": "sa-workshop", "dest-protocol": "amqp091", "dest-uri": "amqp://guest:guest@rabbitmq", "dest-queue": "sa-workshop-shovelq", "dest-queue-args": {"x-queue-type": "quorum"}}'
 ```
 
@@ -222,7 +221,6 @@ This command creates a Shovel named my-shovel that will move messages from the s
 Let's fire up a simple Spring Boot application that will produce messages to our RabbitMQ queue.
 
 ```
-
 git clone [https://github.com/cfkubo/spring-boot-random-data-generator](https://github.com/cfkubo/spring-boot-random-data-generator)
 cd spring-boot-random-data-generator
 mvn spring-boot:run

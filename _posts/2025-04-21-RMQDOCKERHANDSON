@@ -1,8 +1,8 @@
 ---
-title: RabbitMQ on Kubernetes Hands-On Adventure! 
-date: 2025-04-24 01:01:01 +/-TTTT
-categories: [rabbitmq, messaging]
-tags: [rabbitmq, messaging]     # TAG names should always be lowercase
+title: RabbitMQ in a Box! Your Whirlwind Docker Adventure! 
+date: 2025-04-23 01:01:01 +/-TTTT
+categories: [rabbitmq, messaging , docker]
+tags: [rabbitmq, messaging, docker ]     # TAG names should always be lowercase
 ---
 
 <!-- Google tag (gtag.js) -->

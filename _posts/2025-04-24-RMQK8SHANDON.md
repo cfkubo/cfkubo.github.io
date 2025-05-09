@@ -1,8 +1,8 @@
 ---
 title: RabbitMQ on Kubernetes Hands-On Adventure! 
 date: 2025-04-24 01:01:01 +/-TTTT
-categories: [rabbitmq, messaging]
-tags: [rabbitmq, messaging]     # TAG names should always be lowercase
+categories: [rabbitmq, messaging, k8s , kubernetes]
+tags: [rabbitmq, messaging, k8s, kubernetes]     # TAG names should always be lowercase
 ---
 
 <!-- Google tag (gtag.js) -->

@@ -173,9 +173,9 @@ The RabbitMQ Operator also creates a default user and password stored as a Kuber
 
 ```
 instance=my-tanzu-rabbit
-username=$(kubectl -n default   get secret <span class="math-inline">\{instance\}\-default\-user \-o jsonpath\="\{\.data\.username\}" \| base64 \-\-decode\)
-password\=</span>(kubectl -n default   get secret <span class="math-inline">\{instance\}\-default\-user \-o jsonpath\="\{\.data\.password\}" \| base64 \-\-decode\)
-service\=</span>{instance}
+username=$(kubectl -n default   get secret ${instance}-default-user -o jsonpath="{.data.username}" | base64 --decode)
+password=$(kubectl -n default   get secret ${instance}-default-user -o jsonpath="{.data.password}" | base64 --decode)
+service=${instance}
 echo $username
 echo $password
 ```

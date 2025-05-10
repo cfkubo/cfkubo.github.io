@@ -219,6 +219,8 @@ In the "Prometheus" dropdown, select the Prometheus data source you just added.
 Click "Import".
 Voila! You should now see a Grafana dashboard displaying key metrics from your RabbitMQ server.
 
+![RabbitMQ Screenshot](static/grafana.png)
+
 ## 🚚 LAB 5: Shovelling Messages Around!
 Remember the Shovel plugin? Let's use it to move messages between queues:
 

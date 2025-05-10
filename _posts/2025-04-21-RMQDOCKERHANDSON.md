@@ -113,6 +113,8 @@ Head over to this link to grab the binary for your operating system:
 
 [https://github.com/rabbitmq/rabbitmqadmin-ng/releases](https://github.com/rabbitmq/rabbitmqadmin-ng/releases)
 
+![RabbitMQ Screenshot](static/rmqadmin.png)
+
 Once downloaded, let's make it executable and put it where you can easily use it:
 ```
 # Assuming you downloaded a file like rabbitmqadmin-2.1.0-your-os
@@ -149,6 +151,8 @@ Username: guest
 Password: guest
 
 Or, you can log in with the arul user and the password you just created. Explore the UI – you can see queues, exchanges, connections, and much more!
+
+![RabbitMQ Screenshot](static/rabbitmq.png)
 
 ## 🚦 LAB 3: Putting RabbitMQ to Work with PerfTest!
 Let's simulate some message traffic using the rabbitmq-perf-test tool running as Docker containers.
@@ -199,6 +203,8 @@ docker run -d --name=grafana -p 3000:3000 --network rmq-network  -e GF_DATASOURC
 ```
 
 This runs the Grafana container, maps its port 3000, attaches it to the rmq-network, and sets the default data source URL to our Prometheus container (http://prometheus:9090). It also sets an initial admin password.
+
+![RabbitMQ Screenshot](static/prom-source.png)
 
 ### 🔗 Adding Prometheus as a Data Source to Grafana
 Open your browser and go to http://localhost:3000. Log in (default username is admin, password is password as we set in the docker run command).

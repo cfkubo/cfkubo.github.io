@@ -202,10 +202,12 @@ Time to see our RabbitMQ cluster in action! We'll use the rabbitmq-perf-test too
 Let's run some performance tests with standard and quorum queues (a more robust queue type):
 
 ```
-kubectl -n default  --restart=Never run sa-workshop --image=pivotalrabbitmq/perf-test -- --uri "amqp://<span class="math-inline">\{username\}\:</span>{password}@<span class="math-inline">\{service\}" \-\-producers 10 \-\-consumers 5 \-\-predeclared \-\-routing\-key "sa\-workshop" \-\-pmessages 1000 \-\-queue "sa\-workshop" \-\-rate 100 \-\-consumer\-rate 10 \-\-multi\-ack\-every 10
-kubectl \-n default  \-\-restart\=Never run sa\-workshop\-quorum \-\-image\=pivotalrabbitmq/perf\-test \-\- \-\-uri "amqp\://</span>{username}:<span class="math-inline">\{password\}@</span>{service}" --quorum-queue --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop-quorum" --pmessages 1000 --queue "sa-workshop-quorum" --rate 100 --consumer-rate 10 --multi-ack-every 10
+kubectl -n default  --restart=Never run sa-workshop --image=pivotalrabbitmq/perf-test -- --uri "amqp://${username}:${password}@${service}" --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop" --pmessages 1000 --queue "sa-workshop" --rate 100 --consumer-rate 10 --multi-ack-every 10
 
-kubectl -n default  --restart=Always run arul-perf2 --image=pivotalrabbitmq/perf-test -- --uri "amqp://<span class="math-inline">\{username\}\:</span>{password}@${service}" -i 120 -u "q.sys.synthetic-health-check" -qq -P 5 -ms -b 20 -hst 4 -dcr -c 1 -q 5
+kubectl -n default  --restart=Never run sa-workshop-quorum --image=pivotalrabbitmq/perf-test -- --uri "amqp://${username}:${password}@${service}" --quorum-queue --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop-quorum" --pmessages 1000 --queue "sa-workshop-quorum" --rate 100 --consumer-rate 10 --multi-ack-every 10
+
+kubectl -n default  --restart=Always run arul-perf2 --image=pivotalrabbitmq/perf-test -- --uri "amqp://${username}:${password}@${service}" -i 120 -u "q.sys.synthetic-health-check" -qq -P 5 -ms -b 20 -hst 4 -dcr -c 1 -q 5
+
 ```
 
 These commands launch Kubernetes Jobs that will send and receive messages to queues named sa-workshop and sa-workshop-quorum. Keep an eye on your RabbitMQ Management UI to see the queues and message flow!
@@ -214,7 +216,7 @@ These commands launch Kubernetes Jobs that will send and receive messages to que
 And let's try out the RabbitMQ Streams functionality we enabled earlier:
 
 ```
-kubectl -n default  --restart=Always run stream --image=pivotalrabbitmq/perf-test -- --uri "amqp://<span class="math-inline">\{username\}\:</span>{password}@${service}" --stream-queue --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop-stream" --pmessages 100 --queue "sa-workshop-stream" --rate 100 --consumer-rate 10 --multi-ack-every 1 -c 10
+kubectl -n default  --restart=Always run stream --image=pivotalrabbitmq/perf-test -- --uri "amqp://${username}:${password}@${service}" --stream-queue --producers 10 --consumers 5 --predeclared --routing-key "sa-workshop-stream" --pmessages 100 --queue "sa-workshop-stream" --rate 100 --consumer-rate 10 --multi-ack-every 1 -c 10
 ```
 
 This command will run a continuous performance test using a RabbitMQ Stream queue. Streams offer different messaging semantics compared to traditional queues.

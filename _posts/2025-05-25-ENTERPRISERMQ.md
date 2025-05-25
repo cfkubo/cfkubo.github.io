@@ -1,10 +1,11 @@
-
 ---
 title: Enterprise RabbitMQ on Kubernetes! Hands-On Adventure! 
 date: 2025-05-24 01:01:01 +/-TTTT
 categories: [rabbitmq, messaging, k8s , kubernetes, standby replication]
 tags: [rabbitmq, messaging, k8s, kubernetes, standby replication]     # TAG names should always be lowercase
 ---
+
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2P5CM1K51"></script>
@@ -26,7 +27,8 @@ tags: [rabbitmq, messaging, k8s, kubernetes, standby replication]     # TAG name
 </script>
 
 
-## 🚀🐰📦 RabbitMQ workshop is designed to get hands on operational experience with Enterprise RabbitMQ on K8s. 🚀🐰📦
+
+# 🚀🐰📦 RabbitMQ workshop is designed to get hands on operational experience with Enterprise RabbitMQ on K8s. 🚀🐰📦
 
 ![RabbitMQ Screenshot](../static/rabbitmq-new.png)
 
@@ -69,7 +71,7 @@ export token="<YOUR-BROADCOM-SUPPORT-TOKEN-FOR-RMQ-K8S>"
 
 ![RabbitMQ Screenshot](../static/token.png)
 
-<!-- 
+
 ### Login to Broadcom registry.
 
 ```
@@ -622,4 +624,5 @@ kubectl -n default delete pod $(kubectl -n default get pod -o jsonpath='{.items[
 #### 🚀🐰📦 References:🚀🐰📦
 - [Streaming with RabbitMQ](https://github.com/ggreen/event-streaming-showcase)
 - [RabbitMQ Website](https://www.rabbitmq.com)
-- [Broadcom/VMware RabbitMQ for K8s Docs](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-rabbitmq-on-kubernetes/4-0/tanzu-rabbitmq-kubernetes/installation-using-helm.html) -->
+- [Broadcom/VMware RabbitMQ for K8s Docs](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-rabbitmq-on-kubernetes/4-0/tanzu-rabbitmq-kubernetes/installation-using-helm.html) 
+

@@ -67,9 +67,9 @@ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/
 ```
 export token="<YOUR-BROADCOM-SUPPORT-TOKEN-FOR-RMQ-K8S>"
 ```
-![RabbitMQ Screenshot](../static/k8s-ent-rmq.png)
+![RabbitMQ Screenshot](/static/k8s-ent-rmq.png)
 
-![RabbitMQ Screenshot](../static/token.png)
+![RabbitMQ Screenshot](/static/token.png)
 
 
 ### Login to Broadcom registry.
@@ -138,7 +138,7 @@ Access the releases: [https://github.com/rabbitmq/rabbitmqadmin-ng/releases](htt
 
 Download the binary for your OS, update permission and move it bin folder
 
-![RabbitMQ Screenshot](../static/rmqadmin.png)
+![RabbitMQ Screenshot](/static/rmqadmin.png)
 ```
 wget https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.1.0/rabbitmqadmin-2.1.0-aarch64-apple-darwin
 cp rabbitmqadmin-2.1.0-aarch64-apple-darwin rmqadmin
@@ -440,12 +440,16 @@ export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/nam
 #### Add prometheus datasource to Grafana
 Click on "Add your first data soruce" > select prometheus > http://prometheus-server.default.svc.cluster.local:80 > save and test
 
-![RabbitMQ Screenshot](grafana.png)
+```
+http://prometheus-server.default.svc.cluster.local:80
+```
+
+![RabbitMQ Screenshot](/static/grafana-soruce.png)
 
 #### Add RMQ-Overview Dashboard
 Click on create new dasboard > Import > copy the json code from rmq-overview.json file and paste it in json field and use the prometheus datasource
 
-![RabbitMQ Screenshot](../static/grafana.png)
+![RabbitMQ Screenshot](/static/grafana.png)
 
 ### 🚀🐰📦 Lab 8: Disaster Recovery 🚀🐰📦
 #### Inspecting Standby Replication on Downstream RMQ

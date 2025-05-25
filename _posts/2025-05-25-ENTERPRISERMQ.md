@@ -1,5 +1,5 @@
 ---
-title: Enterprise RabbitMQ on Kubernetes! Hands-On Adventure! 
+title: Enterprise RabbitMQ on Kubernetes! Modernizing Messaging! 
 date: 2025-05-24 01:01:01 +/-TTTT
 categories: [rabbitmq, messaging, k8s , kubernetes, standby replication]
 tags: [rabbitmq, messaging, k8s, kubernetes, standby replication]     # TAG names should always be lowercase

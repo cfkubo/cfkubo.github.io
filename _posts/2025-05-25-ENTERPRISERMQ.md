@@ -472,7 +472,7 @@ kubectl -n default exec downstream-rabbit-server-0 -- rabbitmqctl list_streams_a
 kubectl -n default exec downstream-rabbit-server-0 --  rabbitmqctl list_vhosts_available_for_standby_replication_recovery
 ```
 
-[--vhost <vhost>]
+<!-- [--vhost <vhost>] -->
 
 
 

@@ -611,7 +611,7 @@ An AI generated song dedicated to RabbitMQ. Enjoy the music! 🎶🥁🚀🐰�
 
 <!-- [https://suno.com/s/yfhHe8JGZUdx2EDn](https://suno.com/s/yfhHe8JGZUdx2EDn) -->
 
-<iframe width="1166" height="657" src="https://www.youtube.com/embed/zoAPWZF9TRI" title="One Server To Queue Them All !!!   #rabbitmq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="850" height="457" src="https://www.youtube.com/embed/zoAPWZF9TRI" title="One Server To Queue Them All !!!   #rabbitmq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 #### Troubleshooting

@@ -69,7 +69,7 @@ export token="<YOUR-BROADCOM-SUPPORT-TOKEN-FOR-RMQ-K8S>"
 
 ![RabbitMQ Screenshot](../static/token.png)
 
-
+<!-- 
 ### Login to Broadcom registry.
 
 ```
@@ -622,4 +622,4 @@ kubectl -n default delete pod $(kubectl -n default get pod -o jsonpath='{.items[
 #### 🚀🐰📦 References:🚀🐰📦
 - [Streaming with RabbitMQ](https://github.com/ggreen/event-streaming-showcase)
 - [RabbitMQ Website](https://www.rabbitmq.com)
-- [Broadcom/VMware RabbitMQ for K8s Docs](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-rabbitmq-on-kubernetes/4-0/tanzu-rabbitmq-kubernetes/installation-using-helm.html)
+- [Broadcom/VMware RabbitMQ for K8s Docs](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-rabbitmq-on-kubernetes/4-0/tanzu-rabbitmq-kubernetes/installation-using-helm.html) -->

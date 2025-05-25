@@ -30,7 +30,7 @@ tags: [rabbitmq, messaging, k8s, kubernetes, standby replication]     # TAG name
 
 # 🚀🐰📦 RabbitMQ workshop is designed to get hands on operational experience with Enterprise RabbitMQ on K8s. 🚀🐰📦
 
-![RabbitMQ Screenshot](../static/rabbitmq-new.png)
+![RabbitMQ Screenshot](/static/rabbitmq-new.png)
 
 ### 📦Prequisites📦
 - K8s installed and running (Kind,Docker k8s, MiniKube, Any K8s)

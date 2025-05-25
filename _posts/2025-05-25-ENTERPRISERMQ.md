@@ -336,16 +336,12 @@ Usecases:
 - Queue names changed
 - Queue is full and need to be drained
 
-Usecases: 
-- Moving messages between queues on same or different cluster
-
-
-- Below command will move messages from `sa-workshop-stream` to `sa-workshop-shovel`
 
 This kubectl exec command directly executes rabbitmqctl within the upstream-rabbit-server-0 Pod in the default namespace. It configures a shovel named my-shovel.
 
 This shovel is set up to move messages from the quorum queue named sa-workshop-quorum on the upstream-rabbit service to another queue named sa-workshop-shovelq on the same service. The destination queue sa-workshop-shovelq is explicitly created as a quorum queue using the dest-queue-args. This command essentially sets up a mechanism to transfer messages between two quorum queues within the same RabbitMQ cluster. The rabbitmq_shovel plugin must be enabled for this to function.
 
+- Below command will move messages from `sa-workshop-stream` to `sa-workshop-shovel`
 
 ```
 kubectl -n default exec upstream-rabbit-server-0 --  rabbitmqctl set_parameter shovel my-shovel '{"src-protocol": "amqp091", "src-uri": "amqp://arul:password@upstream-rabbit.default.svc.cluster.local:5672", "src-queue": "sa-workshop-quorum", "dest-protocol": "amqp091", "dest-uri": "amqp://arul:password@upstream-rabbit.default.svc.cluster.local:5672", "dest-queue": "sa-workshop-shovelq", "dest-queue-args": {"x-queue-type": "quorum"}}'

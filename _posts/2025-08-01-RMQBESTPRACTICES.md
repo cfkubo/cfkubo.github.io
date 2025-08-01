@@ -14,23 +14,50 @@ Building a reliable and scalable messaging system with RabbitMQ requires a thoug
 #### 1. The RabbitMQ Server: Your Messaging Backbone ⚙️
 The RabbitMQ server isn't just a simple message broker; it's a powerful tool that needs careful configuration to guarantee message delivery.
 
-High Availability and Durability
+*High Availability and Durability*
 For production environments, a single RabbitMQ node is a single point of failure. To ensure high availability and prevent data loss, you must set up a RabbitMQ cluster. A cluster replicates queues and data across multiple nodes.
 
-Quorum Queues: This is the recommended queue type for reliability. Quorum queues use the Raft consensus algorithm to ensure data is replicated to a majority of nodes before an acknowledgment is sent. This prevents data loss even if a minority of nodes fail. Your quorum.transactions example is a great start.
+*Quorum Queues:* This is the recommended queue type for reliability. Quorum queues use the Raft consensus algorithm to ensure data is replicated to a majority of nodes before an acknowledgment is sent. This prevents data loss even if a minority of nodes fail. Your quorum.transactions example is a great start.
 
 <!-- Classic Mirrored Queues: An older method of achieving high availability. While they work, they have performance overhead and are generally superseded by Quorum Queues. -->
 
-Durable Exchanges and Queues: All queues and exchanges should be declared as durable. This ensures they survive a RabbitMQ server restart.
+*Durable Exchanges and Queues:* All queues and exchanges should be declared as durable. This ensures they survive a RabbitMQ server restart.
 
-Persistent Messages: When a message is published, the producer should set the delivery_mode to 2 (persistent). This tells RabbitMQ to write the message to disk, ensuring it survives a broker restart.
+P*ersistent Messages:* When a message is published, the producer should set the delivery_mode to 2 (persistent). This tells RabbitMQ to write the message to disk, ensuring it survives a broker restart.
 
-Managing Backpressure and Unprocessed Messages
-Your provided policies for max-length and overflow are excellent for managing backpressure.
+*Managing Backpressure and Unprocessed Messages*
+
+Leverage policies for max-length and overflow are excellent for managing backpressure.
+
 
 Queue Length Policies: By setting a max-length, you prevent a queue from growing indefinitely and consuming all server memory. The reject-publish overflow strategy tells RabbitMQ to reject new messages when the queue is full, pushing the responsibility back to the producer.
 
-Dead Letter Queues (DLQ): Messages can fail for many reasons (e.g., malformed data, consumer bugs). Instead of dropping them, configure a queue with a dead letter exchange. When a message is rejected, expires, or is dead-lettered due to a queue length policy, it's routed to a dedicated DLQ. This allows you to inspect and reprocess failed messages later, preventing data loss.
+These policies define message limits and overflow behavior for your queues. This is crucial for preventing queues from growing indefinitely and consuming excessive memory.
+
+```sh
+rabbitmqctl set_policy q-pol "quorum.transactions" \
+  '{"max-length":1000,"overflow":"reject-publish"}' \
+  --apply-to queues
+
+rabbitmqctl set_policy s-pol "stream.transactions" \
+  '{"max-length":1000,"overflow":"reject-publish"}' \
+  --apply-to queues
+
+rabbitmqctl set_policy c-pol "classic.transactions" \
+  '{"max-length":10000,"overflow":"reject-publish"}' \
+  --apply-to queues
+```
+
+#### Consumer Timeout
+
+This policy ensures that consumers don't hold messages for too long without acknowledging them. If a consumer fails, this setting can help release the message back to the queue for another consumer to process.
+
+```
+rabbitmqctl set_policy all ".*" '{"consumer-timeout":5000}'
+```
+
+
+*Dead Letter Queues (DLQ):* Messages can fail for many reasons (e.g., malformed data, consumer bugs). Instead of dropping them, configure a queue with a dead letter exchange. When a message is rejected, expires, or is dead-lettered due to a queue length policy, it's routed to a dedicated DLQ. This allows you to inspect and reprocess failed messages later, preventing data loss.
 
 #### 2. The Producer Application: Ensuring Delivery 🤝
 The producer's job is not just to send a message but to do so with certainty.

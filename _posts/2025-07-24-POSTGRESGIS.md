@@ -1,6 +1,6 @@
 ---
 title: Unlocking In-Store Analytics with PostGIS and PostgreSQL! 
-date: 2025-06-01 01:01:0 01:01:01 +/-TTTT
+date: 2025-07-24 01:01:0 01:01:01 +/-TTTT
 categories: [postgres, gis]
 tags: [postgres, gis]
 ---

@@ -1,5 +1,5 @@
 ---
-title: Turbocharge Your Spring Boot App: Inline Caching with GemFire! 
+title: Turbocharge Your Spring Boot App Inline Caching with GemFire! 
 date: 2025-06-01 01:01:0 01:01:01 +/-TTTT
 categories: [gemfire, cache, springboot, postgresql, caching]
 tags: [gemfire, cache, springboot, postgresql, caching]

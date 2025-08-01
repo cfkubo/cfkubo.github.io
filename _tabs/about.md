@@ -17,6 +17,9 @@ order: 9
 </div>
 
 ## About Me
+
+Technologist, Trusted Advisor, Sales Specialist, Customer Success, Championing Executives, Technical Champions and DevSecOps teams at Strategic Enterprises. Field Sales Solutions Specialist with pre and post-sales experience. Dedicated professional with a Master's degree focused on Distributed Systems. Supporting Strategic Enterprise Accounts to drive Modernization at Scale. Providing seamless solutions to drive adoption and customer satisfaction. Passionate about DevSecOps, Cloud Native, and Security. 
+
 Experiments with Words, Code, Music and AI 
 
 ## LinkedIn 

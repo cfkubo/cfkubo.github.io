@@ -34,7 +34,7 @@ Queue Length Policies: By setting a max-length, you prevent a queue from growing
 
 These policies define message limits and overflow behavior for your queues. This is crucial for preventing queues from growing indefinitely and consuming excessive memory.
 
-```sh
+```
 rabbitmqctl set_policy q-pol "quorum.transactions" \
   '{"max-length":1000,"overflow":"reject-publish"}' \
   --apply-to queues

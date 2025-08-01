@@ -5,13 +5,13 @@ categories: [rabbitmq, springboot]
 tags: [rabbitmq, springboot]
 ---
 
-#### 🚀🐰📦 Building a reliable and scalable messaging system with RabbitMQ 🚀🐰📦 
+### 🚀🐰📦 Building a reliable and scalable messaging system with RabbitMQ 🚀🐰📦 
 
 Building a reliable and scalable messaging system with RabbitMQ requires a thoughtful approach beyond just connecting a producer and a consumer. This blog post outlines best practices for the RabbitMQ server, producer applications, and consumer applications to ensure a highly reliable pub/sub architecture. We'll leverage the concepts shown in the provided diagram and your sample applications to cover key areas like message durability, high availability, and consumer resilience.
 
 ![pub-sub](/static/pub-sub.png)
 
-<!-- 
+
 #### 1. The RabbitMQ Server: Your Messaging Backbone ⚙️
 The RabbitMQ server isn't just a simple message broker; it's a powerful tool that needs careful configuration to guarantee message delivery.
 
@@ -20,7 +20,6 @@ For production environments, a single RabbitMQ node is a single point of failure
 
 **Quorum Queues:** This is the recommended queue type for reliability. Quorum queues use the Raft consensus algorithm to ensure data is replicated to a majority of nodes before an acknowledgment is sent. This prevents data loss even if a minority of nodes fail. Your quorum.transactions example is a great start.
 
-<!-- Classic Mirrored Queues: An older method of achieving high availability. While they work, they have performance overhead and are generally superseded by Quorum Queues. -->
 
 **Durable Exchanges and Queues:** All queues and exchanges should be declared as durable. This ensures they survive a RabbitMQ server restart.
 
@@ -46,14 +45,6 @@ rabbitmqctl set_policy s-pol "stream.transactions" \
 rabbitmqctl set_policy c-pol "classic.transactions" \
   '{"max-length":10000,"overflow":"reject-publish"}' \
   --apply-to queues
-```
-
-#### Consumer Timeout
-
-This policy ensures that consumers don't hold messages for too long without acknowledging them. If a consumer fails, this setting can help release the message back to the queue for another consumer to process.
-
-```
-rabbitmqctl set_policy all ".*" '{"consumer-timeout":5000}'
 ```
 
 
@@ -106,6 +97,13 @@ Prefetch (QoS - Quality of Service): The number of unacknowledged messages a con
 Consumer Timeouts
 The consumer-timeout policy you included is a crucial feature. It protects against "stuck" consumers that hold onto a message but never acknowledge it, effectively blocking the queue. If a consumer holds a message longer than the timeout, RabbitMQ will close the channel, and the message can be delivered to another consumer.
 
+This policy ensures that consumers don't hold messages for too long without acknowledging them. If a consumer fails, this setting can help release the message back to the queue for another consumer to process.
+
+```
+rabbitmqctl set_policy all ".*" '{"consumer-timeout":5000}'
+```
+
+
 Idempotent Consumers
 Since a message might be redelivered due to a consumer failure, your consumer logic must be idempotent. This means processing the same message multiple times has no negative side effects. For example, if your consumer writes to a database, it should check if the record already exists before creating a new one.
 
@@ -122,4 +120,4 @@ Consumer Performance: ack_rate, nack_rate, and redelivery_rate to understand con
 
 Alerting: Set up alerts for critical thresholds, such as a queue size exceeding a certain limit or a node going offline.
 
-By combining these server-side configurations with best practices for your producer and consumer applications, you can build a resilient pub/sub system that guarantees message delivery and gracefully handles failures. -->
+By combining these server-side configurations with best practices for your producer and consumer applications, you can build a resilient pub/sub system that guarantees message delivery and gracefully handles failures. 

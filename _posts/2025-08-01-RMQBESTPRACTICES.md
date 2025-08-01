@@ -9,7 +9,8 @@ tags: [rabbitmq, springboot]
 
 Building a reliable and scalable messaging system with RabbitMQ requires a thoughtful approach beyond just connecting a producer and a consumer. This blog post outlines best practices for the RabbitMQ server, producer applications, and consumer applications to ensure a highly reliable pub/sub architecture. We'll leverage the concepts shown in the provided diagram and your sample applications to cover key areas like message durability, high availability, and consumer resilience.
 
-![pub-sub](../static/pub-sub.png)
+![pub-sub](/static/pub-sub.png)
+
 
 #### 1. The RabbitMQ Server: Your Messaging Backbone ⚙️
 The RabbitMQ server isn't just a simple message broker; it's a powerful tool that needs careful configuration to guarantee message delivery.

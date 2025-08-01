@@ -9,6 +9,8 @@ tags: [rabbitmq, springboot]
 
 Building a reliable and scalable messaging system with RabbitMQ requires a thoughtful approach beyond just connecting a producer and a consumer. This blog post outlines best practices for the RabbitMQ server, producer applications, and consumer applications to ensure a highly reliable pub/sub architecture. We'll leverage the concepts shown in the provided diagram and your sample applications to cover key areas like message durability, high availability, and consumer resilience.
 
+![pub-sub](../static/pub-sub.png)
+
 #### 1. The RabbitMQ Server: Your Messaging Backbone ⚙️
 The RabbitMQ server isn't just a simple message broker; it's a powerful tool that needs careful configuration to guarantee message delivery.
 
@@ -17,7 +19,7 @@ For production environments, a single RabbitMQ node is a single point of failure
 
 Quorum Queues: This is the recommended queue type for reliability. Quorum queues use the Raft consensus algorithm to ensure data is replicated to a majority of nodes before an acknowledgment is sent. This prevents data loss even if a minority of nodes fail. Your quorum.transactions example is a great start.
 
-Classic Mirrored Queues: An older method of achieving high availability. While they work, they have performance overhead and are generally superseded by Quorum Queues.
+<!-- Classic Mirrored Queues: An older method of achieving high availability. While they work, they have performance overhead and are generally superseded by Quorum Queues. -->
 
 Durable Exchanges and Queues: All queues and exchanges should be declared as durable. This ensures they survive a RabbitMQ server restart.
 

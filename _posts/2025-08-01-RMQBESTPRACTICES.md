@@ -11,7 +11,7 @@ Building a reliable and scalable messaging system with RabbitMQ requires a thoug
 
 ![pub-sub](/static/pub-sub.png)
 
-
+<!-- 
 #### 1. The RabbitMQ Server: Your Messaging Backbone ⚙️
 The RabbitMQ server isn't just a simple message broker; it's a powerful tool that needs careful configuration to guarantee message delivery.
 
@@ -122,4 +122,4 @@ Consumer Performance: ack_rate, nack_rate, and redelivery_rate to understand con
 
 Alerting: Set up alerts for critical thresholds, such as a queue size exceeding a certain limit or a node going offline.
 
-By combining these server-side configurations with best practices for your producer and consumer applications, you can build a resilient pub/sub system that guarantees message delivery and gracefully handles failures.
+By combining these server-side configurations with best practices for your producer and consumer applications, you can build a resilient pub/sub system that guarantees message delivery and gracefully handles failures. -->

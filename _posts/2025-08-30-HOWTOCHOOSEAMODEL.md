@@ -19,6 +19,7 @@ In the race to build the next great AI, it's easy to get fixated on a single met
 For many private use cases, the "right" number of parameters for a fine-tuned LLM is likely less than 2 billion.
 
 ## The Power of the Small: Pros of Fine-Tuned Models Under 2B Parameters
+
 The era of “small” language models (SLMs) is here, and they're proving that sheer size doesn't guarantee superior performance for specialized tasks. When you fine-tune a model with a small, high-quality, task-specific dataset, you're not trying to teach it everything about the world; you're teaching it to be an expert in a single, narrow domain.
 
 The benefits of this approach are compelling:
@@ -69,4 +70,5 @@ Local, on-device deployments where power and cost are major constraints.
 By choosing the right model size, you can potentially move your AI inference from expensive, power-hungry GPUs in the cloud to more affordable, readily available CPUs, even on a laptop or a low-cost server.
 
 ## The New Frontier of Private AI
+
 The future of private LLMs isn't about buying the biggest model and hoping for the best. It's about a strategic, data-driven approach that prioritizes efficiency, cost-effectiveness, and specialization. By building fine-tuned models in the "goldilocks zone" of parameters—not too big, not too small—organizations can create highly effective, secure, and affordable AI systems that address their unique business needs without breaking the bank. The real innovation isn't in building bigger models; it's in getting more from less. 

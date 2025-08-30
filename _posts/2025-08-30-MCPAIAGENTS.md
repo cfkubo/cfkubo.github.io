@@ -53,3 +53,6 @@ Building a robust AI agent is an iterative process, not a linear one. It involve
 **Use an LLM-as-a-Judge:** A popular method for evaluating agent performance is to use a separate, powerful language model to act as a judge. It can score the agent's responses based on criteria like accuracy, relevance, and helpfulness.
 
 **Continuous Integration/Continuous Deployment (CI/CD):** Integrate your testing pipeline into your CI/CD workflow. This ensures that every time you make a change, the agent is automatically tested against your defined criteria before it's released into production.
+
+
+![realtimeprocessing](/static/aiagent.png)

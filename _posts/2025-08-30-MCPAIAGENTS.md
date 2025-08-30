@@ -1,6 +1,6 @@
 ---
 title: Crafting AI Agents: A Guide to Building and Validating with an MCP Server - PART I
-date: 2025-08-29 01:01:01 +/-TTTT
+date: 2025-08-30 01:01:01 +/-TTTT
 categories: [ollama, ai, model fine tune, python, pytroch , local ai ,mcp , ai agents ]
 tags: [model fine tunning, ollama, ai, huggingface, python, pytroch ,mcp ,ai agents ]     # TAG names should always be lowercase
 ---

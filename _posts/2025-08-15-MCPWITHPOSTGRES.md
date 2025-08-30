@@ -1,5 +1,5 @@
 ---
-title: Supercharging Local AI with MCP and PostgreSQL: A Practical Guide
+title: Supercharging Private AI with MCP and PostgreSQL
 date: 2025-08-15 01:01:01 +/-TTTT
 categories: [ollama, ai, postgres, local ai , mcp , ai agents ]
 tags: [model fine tunning, ollama, ai, huggingface, python, pytroch , mcp , ai agents ]     # TAG names should always be lowercase
@@ -14,7 +14,7 @@ tags: [model fine tunning, ollama, ai, huggingface, python, pytroch , mcp , ai a
 </script>
 
 
-# Supercharging Local AI with MCP and PostgreSQL: A Practical Guide
+# Supercharging Private AI with MCP and PostgreSQL: A Practical Guide
 
 Imagine harnessing the power of open-source LLMs on your own hardware, seamlessly connecting them to your PostgreSQL database, and interacting through a beautiful web UI—all without sending your data to the cloud. With the **Ollama-MCP Bridge WebUI** and the Model Context Protocol (MCP), this is not just possible, but easy and extensible.
 

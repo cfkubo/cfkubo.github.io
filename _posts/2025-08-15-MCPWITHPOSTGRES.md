@@ -143,5 +143,5 @@ The LLM will automatically detect when to use the Postgres tool, generate SQL, a
 With MCP and the Ollama-MCP Bridge WebUI, you can build a **private, extensible, and powerful AI assistant** that works with your own data—including PostgreSQL—right from your desktop. No cloud required.
 
 **Ready to try?**  
-Clone the repo, add the Postgres MCP server, and start chatting with your database today!
+Clone the [repo](https://github.com/cfkubo/Ollama-MCP-Bridge-WebUI), add the Postgres MCP server, and start chatting with your database today!
 

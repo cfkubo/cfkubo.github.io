@@ -1,6 +1,6 @@
 ---
 title: The Goldilocks Zone of Private LLMs
-date: 2025-09-01 01:01:01 +/-TTTT
+date: 2025-08-30 01:01:01 +/-TTTT
 categories: [ollama, ai, model fine tune, python, pytroch , local ai , mcp , ai agents ]
 tags: [model fine tunning, ollama, ai, huggingface, python, pytroch , mcp , ai agents ]     # TAG names should always be lowercase
 ---

@@ -145,6 +145,7 @@ The future of private LLMs isn't about buying the biggest model and hoping for t
 - [LM Studio](https://lmstudio.ai/)
 - [Llama](https://ai.meta.com/llama/)
 - [Mistral](https://mistral.ai/)
+- [kaggle](https://www.kaggle.com/)
 
 <script src="https://giscus.app/client.js"
         data-repo="cfkubo/cfkubo.github.io"

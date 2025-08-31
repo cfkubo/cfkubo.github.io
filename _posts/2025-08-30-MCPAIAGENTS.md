@@ -56,3 +56,20 @@ Building a robust AI agent is an iterative process, not a linear one. It involve
 
 
 ![realtimeprocessing](/static/aiagent.png)
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

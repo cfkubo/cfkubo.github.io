@@ -1,5 +1,5 @@
 ---
-title: Optimizing Private LLMs
+title: AI Patterns I See Everywhere
 date: 2025-08-03 01:01:01 +/-TTTT
 categories: [ollama, ai, model fine-tune, python, pytorch, local ai, mcp, ai agents]
 tags: [model fine-tuning, ollama, ai, huggingface, python, pytorch, mcp, ai agents]     # TAG names should always be lowercase

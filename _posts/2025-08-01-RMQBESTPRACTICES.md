@@ -121,3 +121,20 @@ Consumer Performance: ack_rate, nack_rate, and redelivery_rate to understand con
 Alerting: Set up alerts for critical thresholds, such as a queue size exceeding a certain limit or a node going offline.
 
 By combining these server-side configurations with best practices for your producer and consumer applications, you can build a resilient pub/sub system that guarantees message delivery and gracefully handles failures. 
+
+<script src="https://giscus.app/client.js"
+        data-repo="cfkubo/cfkubo.github.io"
+        data-repo-id="R_kgDOONa2fg"
+        data-category="General"
+        data-category-id="DIC_kwDOONa2fs4CofaO"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+

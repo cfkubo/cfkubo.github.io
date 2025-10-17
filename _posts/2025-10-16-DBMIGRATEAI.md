@@ -68,9 +68,9 @@ While `dbmigrateai` may not handle every single edge case out of the box, it pro
 **Ready to join the migration revolution?** Explore the [dbmigrateai](https://github.com/cfkubo/dbmigrate.ai) project and see how you can bring the power of AI to your next database migration.
 
 
-![dhome](static/dhome.png)
+![dhome](/static/dhome.png)
 
-![]()
+![dbconnect](/static/dconnect.png)
 
 ![]()
 

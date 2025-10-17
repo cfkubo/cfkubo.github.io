@@ -72,21 +72,18 @@ While `dbmigrateai` may not handle every single edge case out of the box, it pro
 
 ![dbconnect](/static/dconnect.png)
 
-![]()
+![df1](/static/df1.png)
 
-![]()
+![df2](/static/df3.png)
 
-![]()
+![df3](/static/df3.png)
 
-![]()
+![d1](/static/d1.png)
 
-![]()
+![d2](/static/d2.png)
 
-![]()
+![d3](/static/d3.png)
 
-![]()
-
-![]()
 
 
 

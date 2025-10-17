@@ -63,4 +63,28 @@ The era of brute-force database migrations is over. The future is a powerful syn
 
 While `dbmigrateai` may not handle every single edge case out of the box, it provides a powerful foundation that can be extended and customized. It proves that with the right tools, a single expert can indeed be more effective than a team of thirty.
 
-**Ready to join the migration revolution?** Explore the `dbmigrateai` project and see how you can bring the power of AI to your next database migration.
+**Ready to join the migration revolution?** Explore the [dbmigrateai](https://github.com/cfkubo/dbmigrate.ai) project and see how you can bring the power of AI to your next database migration.
+
+
+![dhome](assets/dhome.png)
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+
+

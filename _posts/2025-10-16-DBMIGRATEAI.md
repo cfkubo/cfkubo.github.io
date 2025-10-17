@@ -14,6 +14,8 @@ tags: [model fine-tuning, ollama, ai, mcp, ai agents]     # TAG names should alw
 
 # DbMigrate.AI - An AI Assitant for Database Migration
 
+![dbmai](/static/dbmai.png)
+
 ## The Future of Database Migration: How One Expert and a Specialized AI Assistant Can Outperform a 30-Person Team
 
 ## The Old Way: A Six-Month Marathon with an Army of Thirty
@@ -66,7 +68,7 @@ While `dbmigrateai` may not handle every single edge case out of the box, it pro
 **Ready to join the migration revolution?** Explore the [dbmigrateai](https://github.com/cfkubo/dbmigrate.ai) project and see how you can bring the power of AI to your next database migration.
 
 
-![dhome](assets/dhome.png)
+![dhome](static/dhome.png)
 
 ![]()
 

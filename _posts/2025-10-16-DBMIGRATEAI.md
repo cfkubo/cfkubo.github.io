@@ -70,7 +70,7 @@ While `dbmigrateai` may not handle every single edge case out of the box, it pro
 
 ### DEMO Video
 
-<iframe width="1166" height="657" src="https://www.youtube.com/embed/SRfkZn_p-p0" title="DbmigrateAI - Private AI Assistant for DB Migration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/SRfkZn_p-p0" title="DbmigrateAI - Private AI Assistant for DB Migration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![dhome](/static/dhome.png)
 
